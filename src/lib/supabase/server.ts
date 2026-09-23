@@ -1,7 +1,12 @@
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
+import { stagingTurso } from '@/lib/staging/backend';
+import { createStagingServerClient } from '@/lib/staging/server-client';
 
 export async function createSupabaseServerClient() {
+  if (stagingTurso()) {
+    return (await createStagingServerClient()) as unknown as ReturnType<typeof createServerClient>;
+  }
   const cookieStore = await cookies();
   return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,

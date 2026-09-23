@@ -2,12 +2,15 @@ import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { checkInvite } from '@/lib/invite-token';
 import { RegisterForm } from '@/components/register-form';
+import { redirect } from 'next/navigation';
+import { stagingTurso } from '@/lib/staging/backend';
 
 /**
  * Server wrapper so a personal invite link can be validated before the form is shown - an expired
  * or already-used link says so up front instead of failing after the person fills everything in.
  */
 export default async function RegisterPage({ searchParams }: { searchParams: Promise<{ invite?: string }> }) {
+  if (stagingTurso()) redirect('/login');
   const { invite } = await searchParams;
   const check = invite ? await checkInvite(invite) : null;
   const validInvite = check?.valid ? invite! : null;

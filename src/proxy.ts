@@ -1,5 +1,7 @@
 import { createServerClient } from '@supabase/ssr';
 import { NextResponse, type NextRequest } from 'next/server';
+import { stagingTurso } from '@/lib/staging/backend';
+import { PROFILE_COOKIE, readProfileCookie } from '@/lib/staging/session';
 
 // /sw.js must load without a session; /api/timers/dispatch is called by the cron with no cookie
 // and /api/media is called server-to-server by the import route (both are guarded by their own
@@ -12,11 +14,15 @@ const PUBLIC_PATHS = [
   '/api/timers/dispatch',
   '/api/media',
   '/sw.js',
+  '/api/staging/seed',
+  '/api/staging/media',
 ];
 
 export async function proxy(request: NextRequest) {
   if (request.nextUrl.searchParams.get('familyFallback') === '402') request.headers.set('x-family-test-fallback','402');
   let response = NextResponse.next({ request });
+
+  if (stagingTurso()) return stagingGate(request, response);
 
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -60,6 +66,27 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
+  return response;
+}
+
+// Staging bridge: the signed "מי אתה?" profile cookie replaces the Supabase session.
+async function stagingGate(request: NextRequest, response: NextResponse) {
+  const userId = await readProfileCookie(request.cookies.get(PROFILE_COOKIE)?.value);
+  const path = request.nextUrl.pathname;
+  const isPublic = PUBLIC_PATHS.some((p) => path === p || path.startsWith(p + '/'));
+  if (!userId && !isPublic) {
+    const url = request.nextUrl.clone();
+    url.pathname = '/login';
+    const target = `${path}${request.nextUrl.search}`;
+    url.search = target === '/' ? '' : `?next=${encodeURIComponent(target)}`;
+    return NextResponse.redirect(url);
+  }
+  if (userId && (path === '/login' || path === '/register')) {
+    const url = request.nextUrl.clone();
+    url.pathname = '/';
+    url.search = '';
+    return NextResponse.redirect(url);
+  }
   return response;
 }
 
