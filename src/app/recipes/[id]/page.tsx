@@ -78,6 +78,7 @@ export default async function RecipePage({
       {hasPhotos ? (
         <div className="relative">
           <PhotoCarousel photos={carouselPhotos} title={recipe.title} />
+          <div aria-hidden="true" className="recipe-photo-dissolve pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-24" />
           <Link
             href="/"
             aria-label={tCommon('back')}
@@ -101,7 +102,7 @@ export default async function RecipePage({
       <div
         className={cn(
           'recipe-glass-surface relative z-10 isolate space-y-5 overflow-hidden px-5 pb-8',
-          hasPhotos ? '-mt-12 rounded-t-[2rem] pt-1' : 'pt-2'
+          hasPhotos ? '-mt-12 rounded-t-[2rem] pt-1 recipe-glass-over-photo' : 'pt-2'
         )}
       >
         <header className="recipe-glass-header animate-rise-in relative rounded-[1.65rem] px-4 pb-4 pt-7 sm:px-5">
