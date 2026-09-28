@@ -61,8 +61,8 @@ export function CommentsSection({
   };
 
   return (
-    <section className="card-shell">
-      <div className="card-core p-5">
+    <section className="recipe-glass-panel">
+      <div className="p-5">
         <h2 className="font-display mb-4 text-xl font-medium text-ink-900">💬 {t('title')}</h2>
 
         {comments.length === 0 ? (

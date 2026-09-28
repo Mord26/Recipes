@@ -52,8 +52,8 @@ export function IngredientsList({
   const anyConverted = rows.some((row) => row.converted);
 
   return (
-    <section className="card-shell">
-      <div className="card-core p-5">
+    <section className="recipe-glass-panel">
+      <div className="p-5">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
           <h2 className="font-display text-xl font-medium text-ink-900">{title}</h2>
           {baseServings !== null && servings !== null ? (

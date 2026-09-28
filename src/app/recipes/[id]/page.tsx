@@ -100,11 +100,11 @@ export default async function RecipePage({
 
       <div
         className={cn(
-          'relative z-10 space-y-5 bg-cream-50 px-5',
-          hasPhotos ? '-mt-6 rounded-t-[2rem] pt-1' : 'pt-2'
+          'recipe-glass-surface relative z-10 isolate space-y-5 overflow-hidden px-5 pb-8',
+          hasPhotos ? '-mt-12 rounded-t-[2rem] pt-1' : 'pt-2'
         )}
       >
-        <header className="animate-rise-in pt-6">
+        <header className="recipe-glass-header animate-rise-in relative rounded-[1.65rem] px-4 pb-4 pt-7 sm:px-5">
           <div className="mb-2 flex flex-wrap items-center gap-2">
             {recipe.visibility === 'private' ? (
               <span className="flex items-center gap-1 rounded-full bg-cream-200 px-3 py-1 text-[11px] font-semibold text-ink-700">
@@ -160,7 +160,7 @@ export default async function RecipePage({
           ) : null}
         </header>
 
-        <div className="animate-rise-in flex flex-wrap gap-2" style={{ animationDelay: '60ms' }}>
+        <div className="animate-rise-in flex flex-wrap gap-2 px-1" style={{ animationDelay: '60ms' }}>
           {recipe.servings !== null ? (
             <MetaChip icon={<Users size={14} strokeWidth={1.8} />} label={`${recipe.servings} ${t('servings')}`} />
           ) : null}
@@ -172,7 +172,7 @@ export default async function RecipePage({
           ) : null}
         </div>
 
-        <div className="animate-rise-in space-y-2.5" style={{ animationDelay: '120ms' }}>
+        <div className="recipe-glass-actions animate-rise-in space-y-2.5 rounded-[1.65rem] p-3" style={{ animationDelay: '120ms' }}>
           {recipe.steps.length > 0 ? (
             <Link
               href={cookHref}
@@ -212,8 +212,8 @@ export default async function RecipePage({
         </div>
 
         {recipe.steps.length > 0 ? (
-         <section className="animate-rise-in card-shell" style={{ animationDelay: '300ms' }}>
-          <div className="card-core p-5">
+         <section className="animate-rise-in recipe-glass-panel" style={{ animationDelay: '300ms' }}>
+          <div className="p-5">
             <h2 className="font-display mb-4 text-xl font-medium text-ink-900">{t('steps')}</h2>
             <ol className="space-y-4">
               {recipe.steps.map((step, index) => (
@@ -258,7 +258,7 @@ export default async function RecipePage({
 
 function MetaChip({ icon, label }: { icon: React.ReactNode; label: string }) {
   return (
-    <span className="flex items-center gap-1.5 rounded-full bg-white/70 px-3.5 py-2 text-[13px] font-medium text-ink-700 ring-1 ring-ink-900/8">
+    <span className="recipe-glass-chip flex items-center gap-1.5 rounded-full px-3.5 py-2 text-[13px] font-medium text-ink-700">
       {icon}
       {label}
     </span>

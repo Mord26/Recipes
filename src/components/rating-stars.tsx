@@ -31,8 +31,8 @@ export function RatingStars({
   };
 
   return (
-    <div className="card-shell">
-      <div className="card-core flex items-center justify-between gap-4 px-5 py-4">
+    <div className="recipe-glass-panel">
+      <div className="flex items-center justify-between gap-4 px-5 py-4">
         <div>
           {average !== null ? (
             <p className="flex items-baseline gap-1.5">
