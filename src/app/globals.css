@@ -170,11 +170,10 @@ input[type='number'] {
     linear-gradient(165deg, rgb(255 253 249 / 0.82), #fbf8f2 57%);
   box-shadow: 0 -18px 46px -25px rgb(41 32 21 / 0.22);
 }
-/* Only the image-to-content seam: no layout, card or panel changes. */
+/* Blur alone melts the hero image into the original glass: no color wash. */
 .recipe-photo-dissolve {
-  background: linear-gradient(to bottom, transparent 0%, rgb(251 248 242 / 0.12) 27%, rgb(251 248 242 / 0.5) 64%, #fbf8f2 100%);
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 100%);
   mask-image: linear-gradient(to bottom, transparent 0%, #000 100%);
 }
