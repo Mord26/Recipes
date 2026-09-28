@@ -1,0 +1,3261 @@
+{
+  "generated_at_utc": "2026-09-18T10:44:20.514865+00:00",
+  "source_export_at": "2026-09-18",
+  "project": "family-recipes",
+  "project_ref": "tsonuzihfzrggzchufbz",
+  "record_count": 254,
+  "fallback_tables": {
+    "ai_usage": [
+      {
+        "day": "2026-08-28",
+        "count": "1"
+      },
+      {
+        "day": "2026-07-20",
+        "count": "2"
+      },
+      {
+        "day": "2026-08-10",
+        "count": "3"
+      },
+      {
+        "day": "2026-08-29",
+        "count": "1"
+      },
+      {
+        "day": "2026-07-21",
+        "count": "5"
+      },
+      {
+        "day": "2026-08-30",
+        "count": "2"
+      },
+      {
+        "day": "2026-09-06",
+        "count": "2"
+      },
+      {
+        "day": "2026-08-13",
+        "count": "8"
+      },
+      {
+        "day": "2026-09-10",
+        "count": "2"
+      },
+      {
+        "day": "2026-07-23",
+        "count": "12"
+      },
+      {
+        "day": "2026-07-25",
+        "count": "1"
+      },
+      {
+        "day": "2026-08-14",
+        "count": "5"
+      },
+      {
+        "day": "2026-08-20",
+        "count": "1"
+      },
+      {
+        "day": "2026-07-27",
+        "count": "11"
+      },
+      {
+        "day": "2026-08-26",
+        "count": "9"
+      },
+      {
+        "day": "2026-07-28",
+        "count": "14"
+      },
+      {
+        "day": "2026-07-31",
+        "count": "3"
+      },
+      {
+        "day": "2026-08-03",
+        "count": "2"
+      },
+      {
+        "day": "2026-08-05",
+        "count": "2"
+      },
+      {
+        "day": "2026-08-07",
+        "count": "8"
+      },
+      {
+        "day": "2026-08-27",
+        "count": "35"
+      }
+    ],
+    "app_settings": [
+      {
+        "id": "1",
+        "hide_ratings": "t",
+        "hide_tags": "t",
+        "updated_at": "2026-07-23 21:56:54.492+00"
+      }
+    ],
+    "categories": [
+      {
+        "id": "da67f28f-89ee-4d3f-af00-520d84d49c99",
+        "name_he": "מנות עיקריות",
+        "name_en": "Main Dishes",
+        "emoji": "🍲",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "701f444c-4a0d-494e-a6b3-4388b3fde9be",
+        "name_he": "קינוחים",
+        "name_en": "Desserts",
+        "emoji": "🍰",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "17b3e176-6f7e-4856-8e39-9439516ba640",
+        "name_he": "מרקים",
+        "name_en": "Soups",
+        "emoji": "🥣",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "9644c3e7-09b6-4f2d-930f-b7253f3ffa6b",
+        "name_he": "סלטים",
+        "name_en": "Salads",
+        "emoji": "🥗",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "7b649a61-acfc-4279-b28d-839de62fe5a7",
+        "name_he": "מאפים",
+        "name_en": "Baked Goods",
+        "emoji": "🥐",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "2bd9e936-4c81-4f27-9c2c-e4ec7c812d73",
+        "name_he": "תוספות",
+        "name_en": "Side Dishes",
+        "emoji": "🍚",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "85f2a161-07c3-46ba-b481-1e29d2bd9a4a",
+        "name_he": "ארוחות בוקר",
+        "name_en": "Breakfast",
+        "emoji": "🍳",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "727509e6-13be-400d-8b74-e35cd4580327",
+        "name_he": "משקאות",
+        "name_en": "Drinks",
+        "emoji": "🥤",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "e20a4ea7-0a4b-4b41-828b-9d959f983249",
+        "name_he": "חטיפים",
+        "name_en": "Snacks",
+        "emoji": "🥨",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "9e52458f-173d-4cb7-b0b5-231dce672c24",
+        "name_he": "שבת וחג",
+        "name_en": "Shabbat & Holidays",
+        "emoji": "🕯️",
+        "created_by": null,
+        "created_at": "2026-07-19 05:29:29.721084+00"
+      },
+      {
+        "id": "4d9205ea-7862-4acd-8c33-053640ade783",
+        "name_he": "עוגות",
+        "name_en": null,
+        "emoji": null,
+        "created_by": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "created_at": "2026-07-21 15:14:05.832011+00"
+      },
+      {
+        "id": "e94f411b-a674-4620-91ea-97351815b817",
+        "name_he": null,
+        "name_en": "Breads",
+        "emoji": null,
+        "created_by": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "created_at": "2026-07-27 18:36:09.982367+00"
+      },
+      {
+        "id": "4d4a14f3-0838-469a-a12c-90c684d43c72",
+        "name_he": null,
+        "name_en": "Dressings",
+        "emoji": null,
+        "created_by": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "created_at": "2026-08-05 17:52:42.385094+00"
+      }
+    ],
+    "client_events": [],
+    "comments": [
+      {
+        "id": "39b58a01-443d-49ce-934b-79c383e51a54",
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "author_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "body": "20 דק'",
+        "visibility": "everyone",
+        "created_at": "2026-07-27 17:21:13.550998+00"
+      },
+      {
+        "id": "991d7827-f8cd-4da7-8ae3-3a82b21bf20c",
+        "recipe_id": "5c381247-8b14-4529-90f3-c5426761072d",
+        "author_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "body": "ברור",
+        "visibility": "everyone",
+        "created_at": "2026-07-27 20:06:56.753662+00"
+      },
+      {
+        "id": "9412c3fc-cbb6-4140-bf83-d7196d65ff78",
+        "recipe_id": "e11eac8f-e315-47d1-b8b9-f1ef44d2c167",
+        "author_id": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "body": "להקציף ביצים שלמות לא מידי הרבה זמן להוסיף סוכר, שמן בהדרגה, שאר מצרכים ואז מים רותחים ואז את הרסק \nאת הקמח להוסיף כל כוס ולערבב ידני \nיוצא 4 פסים \nבתנור שלי 150 מעלות ל 52 דק׳",
+        "visibility": "everyone",
+        "created_at": "2026-09-10 20:25:44.882703+00"
+      }
+    ],
+    "cook_logs": [
+      {
+        "id": "a379cafb-65c3-42da-b267-c9623b3a2080",
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "user_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "created_at": "2026-08-10 18:23:32.706389+00"
+      }
+    ],
+    "favorites": [],
+    "profiles": [
+      {
+        "id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "username": "adi",
+        "display_name": "עדי",
+        "role": "member",
+        "default_visibility": "family",
+        "locale": "en",
+        "created_at": "2026-07-27 17:26:34.125152+00",
+        "unit_system": "metric",
+        "blocked": "f",
+        "can_add_recipes": "t",
+        "notify_new_recipes": "t"
+      },
+      {
+        "id": "98811242-44db-403e-9231-5cca41455e2d",
+        "username": "test",
+        "display_name": "חשבון טסט",
+        "role": "member",
+        "default_visibility": "family",
+        "locale": "he",
+        "created_at": "2026-07-21 13:41:06.991218+00",
+        "unit_system": "metric",
+        "blocked": "f",
+        "can_add_recipes": "t",
+        "notify_new_recipes": "t"
+      },
+      {
+        "id": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "username": "chayadina",
+        "display_name": "Chaya Dina",
+        "role": "member",
+        "default_visibility": "family",
+        "locale": "he",
+        "created_at": "2026-07-19 17:41:40.689946+00",
+        "unit_system": "metric",
+        "blocked": "f",
+        "can_add_recipes": "t",
+        "notify_new_recipes": "t"
+      },
+      {
+        "id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "username": "mordy",
+        "display_name": "Mordy",
+        "role": "admin",
+        "default_visibility": "family",
+        "locale": "he",
+        "created_at": "2026-07-19 16:57:12.903246+00",
+        "unit_system": "metric",
+        "blocked": "f",
+        "can_add_recipes": "t",
+        "notify_new_recipes": "t"
+      }
+    ],
+    "ratings": [],
+    "recipe_categories": [
+      {
+        "recipe_id": "5c381247-8b14-4529-90f3-c5426761072d",
+        "category_id": "e94f411b-a674-4620-91ea-97351815b817"
+      },
+      {
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "category_id": "4d4a14f3-0838-469a-a12c-90c684d43c72"
+      },
+      {
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "category_id": "4d9205ea-7862-4acd-8c33-053640ade783"
+      },
+      {
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "category_id": "e94f411b-a674-4620-91ea-97351815b817"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "category_id": "9644c3e7-09b6-4f2d-930f-b7253f3ffa6b"
+      },
+      {
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "category_id": "4d9205ea-7862-4acd-8c33-053640ade783"
+      },
+      {
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "category_id": "9644c3e7-09b6-4f2d-930f-b7253f3ffa6b"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "category_id": "4d4a14f3-0838-469a-a12c-90c684d43c72"
+      },
+      {
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "category_id": "4d9205ea-7862-4acd-8c33-053640ade783"
+      }
+    ],
+    "recipe_photos": [
+      {
+        "id": "2d94a3e9-813a-4d90-ac79-ea2d8322b9db",
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "storage_path": "9432139a-5d08-40d9-bd6d-37237403301a/68718be7-7b9f-49e0-9188-280a4caf66c8.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-27 20:15:30.238301+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "9b5d151f-05b2-4693-9fdd-45f41e8c5a6a",
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "storage_path": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c/e79a73db-b5fc-4062-aa8f-262a5c8a67cc.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-27 20:17:42.734609+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "1418cdcb-aa47-48cb-89be-efd463f0ae56",
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "storage_path": "ddfa8521-adb0-420f-8f4a-79d91fc676b7/3857920d-e13a-4d27-835c-1f0dd2421d71.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-27 20:19:55.395155+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "88ebe5a3-4dd4-4c67-bcb1-14ca39e63a51",
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "storage_path": "075e3be0-0a6e-47b9-a79d-e35c31aa8152/927e646b-188f-4fd0-a189-3b684df2b487.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-27 21:06:42.549868+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "8091a492-0178-475c-abde-180da9a569ea",
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "storage_path": "7259c386-48b1-49a7-836f-77a8a3f508f4/f7f11c18-0983-472a-abe5-2e7bbd8927cd.webp",
+        "kind": "photo",
+        "position": "0",
+        "created_at": "2026-07-27 16:33:39.514865+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "6e6ef9d5-b2ea-4dce-a9c3-5b19ed064c7c",
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "storage_path": "7259c386-48b1-49a7-836f-77a8a3f508f4/cf3122ed-7196-4c60-ae8c-41b9bc3ccc6f.webp",
+        "kind": "photo",
+        "position": "1",
+        "created_at": "2026-07-27 16:33:39.514865+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "cf38a4e5-fdbd-4171-9465-cf1424ed9e3a",
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "storage_path": "7259c386-48b1-49a7-836f-77a8a3f508f4/613b7440-52c1-4ad1-8ff5-cacc69570090.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-07-27 16:33:39.514865+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "4170d086-e56c-468a-a80e-9f2a1925ef04",
+        "recipe_id": "5c381247-8b14-4529-90f3-c5426761072d",
+        "storage_path": "5c381247-8b14-4529-90f3-c5426761072d/5068ed74-8775-41f3-9dcb-6847aa100f17.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-07-27 18:39:44.17326+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "6f38107e-45ed-4b29-bdd6-bcb832fc7beb",
+        "recipe_id": "5c381247-8b14-4529-90f3-c5426761072d",
+        "storage_path": "5c381247-8b14-4529-90f3-c5426761072d/803c11af-5faa-45c5-aa0f-8e827c403fab.webp",
+        "kind": "photo",
+        "position": "0",
+        "created_at": "2026-07-27 18:47:56.64205+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "4b290520-253a-4dc6-a564-3890e5fb2f85",
+        "recipe_id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "storage_path": "80a61891-4463-4930-8475-64ef7c7e2ae5/ec99e3e4-5e9e-4136-a347-fea65e6da889.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-07-31 11:04:13.20467+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "8fc1f728-5cb0-4c7f-b9e8-ec899055b2ce",
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "storage_path": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33/59d69b28-dd69-46bc-b849-a466d69e0a44.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-05 17:52:47.442077+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "63783c2e-7408-423c-81ce-7b13167cedf2",
+        "recipe_id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "storage_path": "cf58a5ab-6018-4773-a758-09e2e1344f2b/c0dbcd23-2f07-475e-902b-478bb818c710.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-03 21:01:48.720224+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "8aad3fff-ece0-4b1c-a011-2d716f09df64",
+        "recipe_id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "storage_path": "cf58a5ab-6018-4773-a758-09e2e1344f2b/6e121859-4121-4d4c-bd3d-ff17b0c23566.webp",
+        "kind": "photo",
+        "position": "0",
+        "created_at": "2026-08-03 21:23:27.31503+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "41595407-1f16-48b3-9414-93f3996efdc0",
+        "recipe_id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "storage_path": "cf58a5ab-6018-4773-a758-09e2e1344f2b/034ee756-c57f-46b6-9489-54c89bf1d448.webp",
+        "kind": "photo",
+        "position": "1",
+        "created_at": "2026-08-03 21:23:27.31503+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "c84cf757-be3f-4dba-8a4e-e4cfe85949cf",
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "storage_path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/bcab186c-4cd8-476f-8902-b34a6a94e158.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-07 11:37:39.528774+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "000e309b-6b25-4f22-9fdd-d4a4d5a27024",
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "storage_path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/2c43f3b0-4c36-4d6c-887a-1f81901c75bd.webp",
+        "kind": "photo",
+        "position": "0",
+        "created_at": "2026-08-07 11:45:48.920668+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "88b7414c-a48f-429b-acd2-f0b5869f219e",
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "storage_path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/bcd47ed5-63e9-427d-84f6-6acb975a7824.webp",
+        "kind": "photo",
+        "position": "1",
+        "created_at": "2026-08-07 11:45:54.172314+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "019e4610-3825-4077-8491-139fdbc6dbae",
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "storage_path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/d45ff756-f048-4a95-a447-f873aa1f8d40.webp",
+        "kind": "photo",
+        "position": "2",
+        "created_at": "2026-08-07 11:46:01.45053+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "ef8d7933-5f11-4f92-b0f2-45b07f236a92",
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "storage_path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/f39e3671-5ac9-47ae-9c0c-4d1a5c0d494f.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-07 11:49:52.278764+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "3b2ed438-485e-44b8-91a5-fb9d5568f8f2",
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "storage_path": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33/f6c49cae-326b-4e80-b3e4-47253cd320ed.webp",
+        "kind": "photo",
+        "position": "0",
+        "created_at": "2026-08-13 15:15:50.333849+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "93269db0-298f-4854-9ddb-2fb5fd2a896c",
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "storage_path": "4d26f595-15de-43d6-b578-bbc668a1f172/06f92d52-b99e-4b86-8ed2-b3663e154bf0.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-13 18:28:42.940845+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "2914b782-21d1-4ec6-8b4f-8f5885ad90a9",
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "storage_path": "bebc571c-e04d-4837-91ee-152a10daf7b1/1c8b0e0c-ee1d-4099-af65-37477c2c9ecf.webp",
+        "kind": "photo",
+        "position": "0",
+        "created_at": "2026-08-26 18:59:25.558456+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "48f54f10-5cd8-4b08-8fb7-d2fb12dcc939",
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "storage_path": "bebc571c-e04d-4837-91ee-152a10daf7b1/44e3b826-98c0-49d3-b671-c503935df68a.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-26 18:59:25.558456+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "43d38dd1-3d8c-4cce-8bb6-937818271a63",
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "storage_path": "bebc571c-e04d-4837-91ee-152a10daf7b1/5d7e2892-97c5-4705-a0f6-ff03433d78e8.webp",
+        "kind": "scan",
+        "position": "1",
+        "created_at": "2026-08-26 18:59:25.558456+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      },
+      {
+        "id": "dc3bd6f3-1879-4532-956b-c4df9b7840a1",
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "storage_path": "66353710-f855-431c-9981-b65debcfc28f/f80ef065-d4c2-42a0-97e5-3055cb3e7984.webp",
+        "kind": "photo",
+        "position": "0",
+        "created_at": "2026-08-27 04:24:20.353485+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "645e99e4-d608-4f4b-bc24-4e0a871d10d7",
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "storage_path": "66353710-f855-431c-9981-b65debcfc28f/625f8494-815a-4a12-b47b-b60bab17dc46.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-27 04:24:20.353485+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "b18d5b39-9df2-4bfc-beb7-621a17b9bdbc",
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "storage_path": "66353710-f855-431c-9981-b65debcfc28f/f2483e90-3471-4332-baec-a708d6fbdff3.webp",
+        "kind": "scan",
+        "position": "1",
+        "created_at": "2026-08-27 04:24:20.353485+00",
+        "uploader_id": "3332d3b6-7d91-4391-a668-de2e14adaffb"
+      },
+      {
+        "id": "e843dcac-1c24-4e25-b70a-11b5e75688e6",
+        "recipe_id": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "storage_path": "e29e3e66-d92d-4ec1-ae50-510374728e98/737a89b4-44f4-4874-905e-f0f03c3eb720.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-08-27 12:48:04.078497+00",
+        "uploader_id": "3a8ad0ef-3528-4530-955e-876f551640b3"
+      },
+      {
+        "id": "578ea7e4-39f7-4390-bc1a-c053830c9c4e",
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "storage_path": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd/5ab09c1e-406e-40cf-8b61-9dd256c9397e.webp",
+        "kind": "scan",
+        "position": "0",
+        "created_at": "2026-09-06 22:06:17.342587+00",
+        "uploader_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58"
+      }
+    ],
+    "recipe_tags": [
+      {
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "tag_id": "fab05d7d-a7aa-4da2-8b7d-e3c95f8e37fe"
+      },
+      {
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "tag_id": "ef80ee19-4627-458a-b142-035d770db551"
+      },
+      {
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "tag_id": "906dbd7b-1a54-4ac1-801b-b2852228264c"
+      },
+      {
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "tag_id": "81467fe1-0dc2-4f85-83d1-5d64d1f8c720"
+      },
+      {
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "tag_id": "f04edc96-5173-4bd6-812e-b923abf9278e"
+      },
+      {
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "tag_id": "6d563868-1a8f-4c68-a473-0a643c1aa34c"
+      },
+      {
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "tag_id": "2aeda951-8e80-4532-9ca9-90caff24d4da"
+      },
+      {
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "tag_id": "03e98015-dbce-449a-9b7f-1fa320b209ec"
+      },
+      {
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "tag_id": "55742e4f-2256-414b-88af-946230820c7f"
+      },
+      {
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "tag_id": "e9e60392-dc17-4306-acf6-0fd6eed58b0f"
+      },
+      {
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "tag_id": "906280e7-5c19-436f-90fe-6af804eddc22"
+      },
+      {
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "tag_id": "03e98015-dbce-449a-9b7f-1fa320b209ec"
+      },
+      {
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "tag_id": "6072ceb8-de46-44f8-b697-e62df45ce9ca"
+      },
+      {
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "tag_id": "dde9eef0-6a4e-4656-b7f4-fd712a18274c"
+      },
+      {
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "tag_id": "c05168ee-9958-4875-855a-302f60422f77"
+      },
+      {
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "tag_id": "0be2d404-e2c0-4e29-93fc-0935b5e60fa0"
+      },
+      {
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "tag_id": "630dac04-c248-4564-9a89-190d5b0e5a55"
+      },
+      {
+        "recipe_id": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "tag_id": "ef80ee19-4627-458a-b142-035d770db551"
+      },
+      {
+        "recipe_id": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "tag_id": "298a4606-037e-43ba-8eb8-f04f9ca50563"
+      },
+      {
+        "recipe_id": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "tag_id": "81467fe1-0dc2-4f85-83d1-5d64d1f8c720"
+      },
+      {
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "tag_id": "d0035180-5064-4d3b-9f83-22767d885126"
+      },
+      {
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "tag_id": "eca8aec1-5d21-4492-9896-c247e4b182e2"
+      },
+      {
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "tag_id": "16f1a15c-2f65-4968-9304-e929a26e3bef"
+      },
+      {
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "tag_id": "d084553a-4647-4be0-9d11-fb9ef0863908"
+      },
+      {
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "tag_id": "6bcba860-02d7-46dc-a614-9993c9995671"
+      },
+      {
+        "recipe_id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "tag_id": "715c6050-e7cc-4a1e-94b4-24942d220bd1"
+      },
+      {
+        "recipe_id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "tag_id": "55742e4f-2256-414b-88af-946230820c7f"
+      },
+      {
+        "recipe_id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "tag_id": "03e98015-dbce-449a-9b7f-1fa320b209ec"
+      },
+      {
+        "recipe_id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "tag_id": "7825debc-6f41-4c42-bdef-7b33887bd453"
+      },
+      {
+        "recipe_id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "tag_id": "c5a8fcbd-8f4a-47a8-b2c4-48771508db0c"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "tag_id": "a48f740b-62ee-49d8-b70b-88d5a0d103c1"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "tag_id": "e4f35cbd-bd5a-4bbc-84ea-953ae6646755"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "tag_id": "0d944411-d660-4406-9180-83042824e946"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "tag_id": "eb762edb-165a-4d22-9eba-bdd9f3d9baec"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "tag_id": "a2bff92b-7bd9-49ff-ac09-8cb91a872dba"
+      },
+      {
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "tag_id": "2aeda951-8e80-4532-9ca9-90caff24d4da"
+      },
+      {
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "tag_id": "74e373b8-5d61-40ea-b037-b1fb3ab41521"
+      },
+      {
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "tag_id": "03e98015-dbce-449a-9b7f-1fa320b209ec"
+      },
+      {
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "tag_id": "55742e4f-2256-414b-88af-946230820c7f"
+      },
+      {
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "tag_id": "825c146a-2d8b-4806-8195-48de1e5253ad"
+      },
+      {
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "tag_id": "31e8d45f-b5ae-44e3-af20-e4d2da72461c"
+      },
+      {
+        "recipe_id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "tag_id": "ec588133-27e1-4102-a43b-a2a965804c7e"
+      },
+      {
+        "recipe_id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "tag_id": "034679fe-e595-48be-a099-8c13157fa03a"
+      },
+      {
+        "recipe_id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "tag_id": "67461786-a9ec-49ff-8b7c-cc864b452748"
+      },
+      {
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "tag_id": "656fa87d-18e0-4ec1-8bc9-f18e605f4415"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "tag_id": "906dbd7b-1a54-4ac1-801b-b2852228264c"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "tag_id": "fa6d0fbe-0203-4f68-92f7-c2c8a36842bf"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "tag_id": "58fb755f-bff5-4bea-a873-74a210e3f7fd"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "tag_id": "81467fe1-0dc2-4f85-83d1-5d64d1f8c720"
+      },
+      {
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "tag_id": "a7fa3abe-c4fe-4df5-9174-ba850bfbfd02"
+      },
+      {
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "tag_id": "11ca91b8-7b96-4321-9ba5-52d879531f2b"
+      },
+      {
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "tag_id": "45acefd1-72e5-4c71-8d4b-9f9078b4d182"
+      },
+      {
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "tag_id": "e7cf44bd-b8af-4bf2-a126-104ce65b248f"
+      },
+      {
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "tag_id": "0be2d404-e2c0-4e29-93fc-0935b5e60fa0"
+      },
+      {
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "tag_id": "30e57a8b-0c8b-4405-a57c-44309d50d2a4"
+      },
+      {
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "tag_id": "34803f73-7e05-4573-ae4a-9d403f23a0a1"
+      },
+      {
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "tag_id": "45acefd1-72e5-4c71-8d4b-9f9078b4d182"
+      }
+    ],
+    "recipe_title_i18n": [
+      {
+        "recipe_id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "locale": "he",
+        "title": "רוטב אבוקדו",
+        "source_title": "Avocado Dressing",
+        "created_at": "2026-08-07 05:19:50.350474+00"
+      },
+      {
+        "recipe_id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "locale": "he",
+        "title": "פאי תפוחים",
+        "source_title": "Apple Pie",
+        "created_at": "2026-08-07 05:19:50.350474+00"
+      },
+      {
+        "recipe_id": "5c381247-8b14-4529-90f3-c5426761072d",
+        "locale": "he",
+        "title": "מקלות לחם",
+        "source_title": "Bread Sticks",
+        "created_at": "2026-08-07 05:19:50.350474+00"
+      },
+      {
+        "recipe_id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "locale": "en",
+        "title": "Chocolate Chip Sticks",
+        "source_title": "מקלות שוקולד צ'יפס",
+        "created_at": "2026-08-13 15:14:34.388134+00"
+      },
+      {
+        "recipe_id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "locale": "en",
+        "title": "Hot Sahlab",
+        "source_title": "סחלב",
+        "created_at": "2026-08-13 15:14:34.388134+00"
+      },
+      {
+        "recipe_id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "locale": "en",
+        "title": "Perfect Calzone with Two Fillings",
+        "source_title": "קלצונה מושלם עם שני מילויים",
+        "created_at": "2026-08-13 15:14:34.388134+00"
+      },
+      {
+        "recipe_id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "locale": "he",
+        "title": "עוגת אמרטו",
+        "source_title": "Amaretto Cake",
+        "created_at": "2026-08-13 18:50:58.517344+00"
+      },
+      {
+        "recipe_id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "locale": "he",
+        "title": "בייגל מחמצת",
+        "source_title": "Sourdough Bagels",
+        "created_at": "2026-08-27 04:22:18.101311+00"
+      },
+      {
+        "recipe_id": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "locale": "he",
+        "title": "מטבל ירוק",
+        "source_title": "Green dip",
+        "created_at": "2026-08-27 15:17:14.274234+00"
+      },
+      {
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "locale": "en",
+        "title": "Carrot Pecan Muffins",
+        "source_title": "מאפינס גזר פקאן",
+        "created_at": "2026-08-27 20:14:17.600009+00"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "locale": "en",
+        "title": "Cabbage Salad with Peanuts",
+        "source_title": "סלט כרוב עם בוטנים",
+        "created_at": "2026-08-27 20:16:23.045258+00"
+      },
+      {
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "locale": "en",
+        "title": "Halva Cake",
+        "source_title": "עוגת חלווה",
+        "created_at": "2026-08-27 20:17:52.878126+00"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "locale": "en",
+        "title": "Mayonnaise-Pastrami Salad Dressing",
+        "source_title": "רוטב מיונז-סלט פסטרמה",
+        "created_at": "2026-08-27 20:51:08.164266+00"
+      },
+      {
+        "recipe_id": "06b4158f-195e-451c-a3f0-72949a530d6c",
+        "locale": "en",
+        "title": "Asian Cabbage Salad",
+        "source_title": "סלט כרוב סיני",
+        "created_at": "2026-08-27 20:49:19.727563+00"
+      },
+      {
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "locale": "he",
+        "title": "סלט כרוב, שומר וקולורבי רענן",
+        "source_title": "סלט כרוב עם שומר וקולורבי",
+        "created_at": "2026-08-27 21:06:42.300067+00"
+      },
+      {
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "locale": "en",
+        "title": "Cabbage, Fennel, and Kohlrabi Salad",
+        "source_title": "סלט כרוב עם שומר וקולורבי",
+        "created_at": "2026-08-27 21:06:59.099612+00"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "locale": "he",
+        "title": "רוטב מיונז וחרדל",
+        "source_title": "רוטב מיונז-סלט פסטרמה",
+        "created_at": "2026-08-28 08:07:07.997582+00"
+      },
+      {
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "locale": "en",
+        "title": "Two-Tone Sponge Cake with Halva Cream",
+        "source_title": "עוגת טורט בשני צבעים עם קרם חלוה",
+        "created_at": "2026-09-06 22:06:17.592924+00"
+      },
+      {
+        "recipe_id": "89fabf85-16c3-4eac-bbfc-300d7f1eeec1",
+        "locale": "en",
+        "title": "Sour Cream Cake",
+        "source_title": "עוגת שמנת",
+        "created_at": "2026-09-10 20:00:57.105277+00"
+      },
+      {
+        "recipe_id": "e11eac8f-e315-47d1-b8b9-f1ef44d2c167",
+        "locale": "en",
+        "title": "Honey Cake",
+        "source_title": "עוגת דבש",
+        "created_at": "2026-09-10 20:02:20.710323+00"
+      }
+    ],
+    "recipe_translations": [
+      {
+        "recipe_id": "e11eac8f-e315-47d1-b8b9-f1ef44d2c167",
+        "locale": "en",
+        "title": "Honey Cake",
+        "description": "",
+        "credit": null,
+        "ingredients": "[{\"name\": \"eggs\", \"unit\": null, \"quantity\": 6}]",
+        "steps": "[]",
+        "source_updated_at": "2026-09-10 20:02:19.658101+00",
+        "created_at": "2026-09-10 20:02:20.648339+00"
+      },
+      {
+        "recipe_id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "locale": "en",
+        "title": "Two-Tone Sponge Cake with Halva Cream",
+        "description": "",
+        "credit": "Chaya Dina's mother-in-law",
+        "ingredients": "[{\"name\": \"eggs\", \"unit\": null, \"quantity\": 10}, {\"name\": \"sugar\", \"unit\": \"cup\", \"quantity\": 1}, {\"name\": \"flour\", \"unit\": \"cups\", \"quantity\": 2.5}, {\"name\": \"sugar\", \"unit\": \"cup\", \"quantity\": 1.5}, {\"name\": \"baking powder\", \"unit\": null, \"quantity\": 1}, {\"name\": \"vanilla sugar\", \"unit\": null, \"quantity\": 1}, {\"name\": \"oil\", \"unit\": \"cup\", \"quantity\": 0.5}, {\"name\": \"juice\", \"unit\": \"cup\", \"quantity\": 1}, {\"name\": \"halva spread\", \"unit\": \"grams\", \"quantity\": 400}, {\"name\": \"non-dairy whipped topping, unwhipped\", \"unit\": null, \"quantity\": null}, {\"name\": \"maple syrup\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"coffee\", \"unit\": \"tablespoons\", \"quantity\": 2}]",
+        "steps": "[\"Whip the egg whites with one cup of sugar.\", \"Mix the remaining ingredients separately and fold them into the egg white mixture.\", \"Spread half of the batter onto a baking sheet and bake.\", \"Add 3 tablespoons of instant coffee to the second half of the batter and bake...\", \"Cook in a saucepan until combined.\", \"Assemble the cake in alternating layers of white cake and cream, then brown cake and cream, and top with sliced blanched almonds.\"]",
+        "source_updated_at": "2026-09-06 22:06:16.034697+00",
+        "created_at": "2026-09-06 22:06:17.568154+00"
+      },
+      {
+        "recipe_id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "locale": "he",
+        "title": "עוגת חלווה",
+        "description": "",
+        "credit": null,
+        "ingredients": "[{\"name\": \"קמח\", \"unit\": \"כוסות\", \"quantity\": 3}, {\"name\": \"אבקת אפייה\", \"unit\": null, \"quantity\": 1}, {\"name\": \"סוכר\", \"unit\": null, \"quantity\": 1.5}, {\"name\": \"מרגרינה\", \"unit\": null, \"quantity\": 0.2}, {\"name\": \"ביצים\", \"unit\": null, \"quantity\": 3}, {\"name\": \"אגוזי מלך\", \"unit\": \"כוסות\", \"quantity\": 2}, {\"name\": \"שוקולד\", \"unit\": \"גרם\", \"quantity\": 250}, {\"name\": \"מרגרינה\", \"unit\": null, \"quantity\": 0.25}, {\"name\": \"קפה\", \"unit\": \"כפות\", \"quantity\": 2}, {\"name\": \"חלמונים\", \"unit\": null, \"quantity\": 6}, {\"name\": \"סוכר (לחלבונים)\", \"unit\": \"כוס\", \"quantity\": 1}, {\"name\": \"חלווה\", \"unit\": \"גרם\", \"quantity\": 250}, {\"name\": \"סוכר וניל\", \"unit\": null, \"quantity\": 2}, {\"name\": \"מים\", \"unit\": \"כוס\", \"quantity\": 0.25}, {\"name\": \"סוכר\", \"unit\": \"כפות\", \"quantity\": 3}, {\"name\": \"קקאו\", \"unit\": \"כפות\", \"quantity\": 3}, {\"name\": \"מרגרינה\", \"unit\": null, \"quantity\": 0.25}]",
+        "steps": "[\"אופים במשך 15 דקות ב-180 מעלות\", \"מצננים\", \"מוסיפים 6 חלמונים\", \"מקציפים את החלבונים עם כוס אחת של סוכר\", \"מערבבים יחד, יוצקים על העוגה ואופים במשך 25 דקות נוספות\", \"מבשלים ויוצקים על עוגה קרה\"]",
+        "source_updated_at": "2026-08-27 20:17:41.38299+00",
+        "created_at": "2026-08-27 20:19:35.687788+00"
+      },
+      {
+        "recipe_id": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "locale": "he",
+        "title": "מטבל ירוק",
+        "description": "",
+        "credit": null,
+        "ingredients": "[{\"name\": \"פטרוזיליה עם הגבעולים\", \"unit\": \"צרור גדול\", \"quantity\": 1}, {\"name\": \"מיונז\", \"unit\": \"כוס\", \"quantity\": 2}, {\"name\": \"שום\", \"unit\": \"שיניים\", \"quantity\": 3}, {\"name\": \"חומץ\", \"unit\": \"כפות\", \"quantity\": 1}, {\"name\": \"סוכר\", \"unit\": \"כף\", \"quantity\": 1}, {\"name\": \"מלח ופלפל\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[]",
+        "source_updated_at": "2026-08-27 12:48:00.801941+00",
+        "created_at": "2026-08-27 15:28:52.481817+00"
+      },
+      {
+        "recipe_id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "locale": "en",
+        "title": "Cabbage Salad with Peanuts",
+        "description": "A bit different from the usual, familiar salad with its various topping versions. I made this salad for a large family event, and since then it has been highly requested in our extended family. And there is a very good reason for that. A slightly different taste with an Asian aroma. The dressing is prepared in advance and keeps in the refrigerator for a week or more, so you can make a large quantity of it and use it over two weekends.",
+        "credit": "Tzivia",
+        "ingredients": "[{\"name\": \"small red cabbage\", \"unit\": null, \"quantity\": 1}, {\"name\": \"bunch of green onions\", \"unit\": null, \"quantity\": 1}, {\"name\": \"red onion\", \"unit\": null, \"quantity\": 1}, {\"name\": \"carrots\", \"unit\": null, \"quantity\": 2}, {\"name\": \"box of sunflower sprouts, or bean sprouts in the absence of sunflower sprouts\", \"unit\": null, \"quantity\": 1}, {\"name\": \"sunflower seeds\", \"unit\": \"cup\", \"quantity\": 1}, {\"name\": \"roasted halved peanuts\", \"unit\": \"cups\", \"quantity\": 1.5}, {\"name\": \"sesame seeds - optional\", \"unit\": null, \"quantity\": null}, {\"name\": \"smooth peanut butter\", \"unit\": \"tbsp\", \"quantity\": 3}, {\"name\": \"vinegar\", \"unit\": \"cup\", \"quantity\": 0.5}, {\"name\": \"soy sauce\", \"unit\": \"tbsp\", \"quantity\": 2}, {\"name\": \"sweet chili sauce\", \"unit\": \"tbsp\", \"quantity\": 2}, {\"name\": \"lemon juice\", \"unit\": \"tbsp\", \"quantity\": 1}, {\"name\": \"honey\", \"unit\": \"cup\", \"quantity\": 0.3333333333333333}, {\"name\": \"demerara sugar\", \"unit\": \"tbsp\", \"quantity\": 2}, {\"name\": \"salt\", \"unit\": \"tsp\", \"quantity\": 1}, {\"name\": \"oil\", \"unit\": \"tbsp\", \"quantity\": 3}, {\"name\": \"mayonnaise\", \"unit\": \"tbsp\", \"quantity\": 1}]",
+        "steps": "[\"Chop the cabbage into pieces that are not too thin.\", \"Slice the green onions into rings, omitting the part close to the bulb.\", \"Cut the carrots into thin matchsticks.\", \"Slice the red onion into very thin quarter-rings.\", \"Place all the vegetables, seeds, and nuts in a bowl.\", \"Place the dressing ingredients in a tall container and blend with an immersion blender until smooth.\", \"Taste the dressing and add sugar to taste.\", \"Pour over the ingredients in the bowl and toss well.\", \"Pour the dressing over only just before serving.\"]",
+        "source_updated_at": "2026-08-27 20:15:27.094024+00",
+        "created_at": "2026-08-27 20:15:33.918333+00"
+      },
+      {
+        "recipe_id": "06b4158f-195e-451c-a3f0-72949a530d6c",
+        "locale": "en",
+        "title": "Asian Cabbage Salad",
+        "description": "",
+        "credit": null,
+        "ingredients": "[{\"name\": \"half white cabbage\", \"unit\": null, \"quantity\": null}, {\"name\": \"toasted sesame seeds and blanched almonds\", \"unit\": null, \"quantity\": null}, {\"name\": \"brown sugar\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"soy sauce\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"oil\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"vinegar\", \"unit\": \"cup\", \"quantity\": 0.25}]",
+        "steps": "[]",
+        "source_updated_at": "2026-08-27 20:53:51.9804+00",
+        "created_at": "2026-08-27 20:49:19.686639+00"
+      },
+      {
+        "recipe_id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "locale": "he",
+        "title": "סלט כרוב, שומר וקולורבי רענן",
+        "description": "",
+        "credit": "חני-גיסתי",
+        "ingredients": "[{\"name\": \"כרוב\", \"unit\": null, \"quantity\": 0.5}, {\"name\": \"קולורבי\", \"unit\": null, \"quantity\": 1}, {\"name\": \"שומר\", \"unit\": null, \"quantity\": 1}, {\"name\": \"פטרוזיליה או כוסברה\", \"unit\": \"חבילה\", \"quantity\": 0.3333333333333333}, {\"name\": \"פלפלים קטנים\", \"unit\": null, \"quantity\": 4}, {\"name\": \"מלח\", \"unit\": \"כף\", \"quantity\": 1}, {\"name\": \"סוכר\", \"unit\": \"כפית\", \"quantity\": 1}, {\"name\": \"לימון\", \"unit\": null, \"quantity\": 2}, {\"name\": \"שמן\", \"unit\": \"כוס\", \"quantity\": 0.3333333333333333}, {\"name\": \"חומץ\", \"unit\": \"כף\", \"quantity\": 1}]",
+        "steps": "[]",
+        "source_updated_at": "2026-08-27 21:06:55.503047+00",
+        "created_at": "2026-08-27 21:06:42.274443+00"
+      },
+      {
+        "recipe_id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "locale": "he",
+        "title": "רוטב מיונז וחרדל",
+        "description": "",
+        "credit": "חני-גיסתי",
+        "ingredients": "[{\"name\": \"סוכר\", \"unit\": \"כפות\", \"quantity\": 2}, {\"name\": \"שום\", \"unit\": null, \"quantity\": 2}, {\"name\": \"חרדל\", \"unit\": \"כף\", \"quantity\": 1}, {\"name\": \"מיונז\", \"unit\": \"כפות\", \"quantity\": 2}, {\"name\": \"שמן\", \"unit\": \"כוס\", \"quantity\": 0.75}, {\"name\": \"מים\", \"unit\": \"כוס\", \"quantity\": 0.5}, {\"name\": \"מעט מלח\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[]",
+        "source_updated_at": "2026-08-28 08:07:06.404625+00",
+        "created_at": "2026-08-27 20:54:31.816838+00"
+      },
+      {
+        "recipe_id": "66353710-f855-431c-9981-b65debcfc28f",
+        "locale": "en",
+        "title": "Carrot Pecan Muffins",
+        "description": "",
+        "credit": null,
+        "ingredients": "[{\"name\": \"large eggs\", \"unit\": null, \"quantity\": 2}, {\"name\": \"dark or light brown sugar\", \"unit\": \"cup\", \"quantity\": 0.75}, {\"name\": \"canola oil\", \"unit\": \"cup\", \"quantity\": 0.5}, {\"name\": \"cinnamon\", \"unit\": \"teaspoon\", \"quantity\": 0.25}, {\"name\": \"vanilla extract\", \"unit\": \"teaspoon\", \"quantity\": 1}, {\"name\": \"spelt flour (whole or white) or all-purpose flour\", \"unit\": \"cups\", \"quantity\": 1.5}, {\"name\": \"baking powder\", \"unit\": \"teaspoon\", \"quantity\": 1}, {\"name\": \"baking soda\", \"unit\": \"teaspoon\", \"quantity\": 0.5}, {\"name\": \"medium carrots, finely grated\", \"unit\": null, \"quantity\": 2}, {\"name\": \"cinnamon for the topping\", \"unit\": \"teaspoon\", \"quantity\": 1}, {\"name\": \"natural pecans, chopped, for the topping\", \"unit\": null, \"quantity\": 12}, {\"name\": \"dark brown sugar for the topping\", \"unit\": \"heaping tablespoons\", \"quantity\": 4}, {\"name\": \"pure maple syrup for the topping\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[\"Preheat the oven to 170°C.\", \"In a bowl, whisk together the eggs, oil, cinnamon, sugar, and vanilla until smooth and slightly fluffy.\", \"Add the flour, baking powder, and baking soda, mix briefly, then fold in the carrots and mix until uniform.\", \"Using a spoon (a spring-loaded cookie scoop is recommended), fill the muffin cups up to 3/4 full.\", \"Mix the sugar, cinnamon, and pecans together, and sprinkle over the muffins.\", \"Bake for 15-20 minutes.\", \"Check for doneness by inserting a toothpick into the center of a muffin.\", \"Remove from the oven and immediately brush generously with maple syrup.\"]",
+        "source_updated_at": "2026-08-27 04:24:15.938427+00",
+        "created_at": "2026-08-29 17:44:04.36427+00"
+      },
+      {
+        "recipe_id": "89fabf85-16c3-4eac-bbfc-300d7f1eeec1",
+        "locale": "en",
+        "title": "Sour Cream Cake",
+        "description": "",
+        "credit": null,
+        "ingredients": "[{\"name\": \"flour\", \"unit\": null, \"quantity\": 3}]",
+        "steps": "[]",
+        "source_updated_at": "2026-09-10 20:00:56.137642+00",
+        "created_at": "2026-09-10 20:00:57.033263+00"
+      }
+    ],
+    "recipes": [
+      {
+        "id": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "owner_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "title": "קלצונה מושלם עם שני מילויים",
+        "description": "מאפה קלצונה מבית בלוג האפייה \"פאי בריבוע\" עם שני מילויים: תרד, שום וגבינות, ורוטב עגבניות עם מוצרלה.",
+        "ingredients": "[{\"name\": \"שמן זית (למילוי תרד)\", \"unit\": \"כפות\", \"quantity\": 3}, {\"name\": \"שיני שום, פרוסות דק\", \"unit\": null, \"quantity\": 4}, {\"name\": \"תרד שטוף\", \"unit\": \"גרם\", \"quantity\": 250}, {\"name\": \"מלח\", \"unit\": null, \"quantity\": null}, {\"name\": \"פלפל שחור\", \"unit\": null, \"quantity\": null}, {\"name\": \"גבינת פטה\", \"unit\": \"גרם\", \"quantity\": 100}, {\"name\": \"גבינת מוצרלה, מגוררת\", \"unit\": \"גרם\", \"quantity\": 150}, {\"name\": \"רוטב עגבניות איכותי\", \"unit\": \"צנצנת\", \"quantity\": 0.5}, {\"name\": \"גבינת מוצרלה מגוררת\", \"unit\": \"גרם\", \"quantity\": 200}, {\"name\": \"קמח לבן\", \"unit\": \"גרם\", \"quantity\": 510}, {\"name\": \"שמרים יבשים\", \"unit\": \"כף\", \"quantity\": 1}, {\"name\": \"סוכר\", \"unit\": \"כפיות\", \"quantity\": 2}, {\"name\": \"מלח\", \"unit\": \"כפיות\", \"quantity\": 2}, {\"name\": \"שמן זית (לבצק)\", \"unit\": \"כפות\", \"quantity\": 3}, {\"name\": \"מים\", \"unit\": \"מ\\\"ל\", \"quantity\": 375}]",
+        "steps": "[\"להכנת מילוי התרד: מחממים במחבת רחבה את שמן הזית. מוסיפים השום ומטגנים רק עד שהוא מתחיל להזהיב בקצוות (יש להקפיד שלא ישרף). מוסיפים את התרד, ומבשלים במשך מספר דקות, עד שהוא מצטמצם מאוד. מוסיפים מלח ופלפל. מצננים לחלוטין, סוחטים מהנוזלים ומערבבים עם הגבינות.\", \"להכנת הבצק: מניחים בקערת מיקסר עם וו לישה את הקמח, השמרים והסוכר ומערבבים מעט. מוסיפים את שאר המלח, השמן וכוס מהמים ולשים. מוסיפים בהדרגה את שאר הממים, עד לקבלת בצק אחיד ומעט דביק. לשים במשך חמש דקות נוספות. מכסים את הבצק באופן רופף עם ניילון נצמד ומתפיחים עד להכפלת הנפח.\", \"מחממים תנור לחום של 220 מעלות.\", \"מחלקים את הבצק לשמונה כדורים בגודל שווה. מרדדים כל כדור לעיגול דק, ואז סוחטים אותו מעט לקבלת אליפסה.\", \"מניחים שתי כפות גדושות ממילוי התרד בחצי התחתון ומקפלים מעליו את הבצק. למילוי העגבניות, מורחים שתי כפות מהרוטב ומפזרים מעל גבינה.\", \"סוגרים את הבצק בלחיצות מזלג או בקיפול שוליים, מברישים בשמן זית ואופים במשך 15-28 דקות, עד שהמאפים מוזהבים מאוד.\"]",
+        "servings": "8",
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "קלצונה מושלם עם שני מילויים מאפה קלצונה מבית בלוג האפייה \"פאי בריבוע\" עם שני מילויים: תרד, שום וגבינות, ורוטב עגבניות עם מוצרלה.  שמן זית (למילוי תרד) שיני שום, פרוסות דק תרד שטוף מלח פלפל שחור גבינת פטה גבינת מוצרלה, מגוררת רוטב עגבניות איכותי גבינת מוצרלה מגוררת קמח לבן שמרים יבשים סוכר מלח שמן זית (לבצק) מים חלבי איטלקי מאפים גבינות קלצונה",
+        "created_at": "2026-07-27 16:33:34.680658+00",
+        "updated_at": "2026-07-27 16:33:35.147524+00",
+        "credit": null
+      },
+      {
+        "id": "5c381247-8b14-4529-90f3-c5426761072d",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "Bread Sticks",
+        "description": "Garlic Bread Sticks",
+        "ingredients": "[{\"name\": \"Sugar\", \"unit\": \"tbsp\", \"quantity\": 2}, {\"name\": \"Salt\", \"unit\": \"tbsp\", \"quantity\": 2}, {\"name\": \"Yeast\", \"unit\": \"tbsp\", \"quantity\": 2}, {\"name\": \"Water\", \"unit\": \"cup\", \"quantity\": 3}, {\"name\": \"Flour\", \"unit\": \"kg\", \"quantity\": 1}]",
+        "steps": "[\"Knead by hand or mixer\", \"Divide the dough In to 2\", \"Spread on a baking sheet and cut in to 1 inch sticks\", \"Prepare oil (1/2 cup) and garlic (1 head) and brush on the dough\", \"Bake for 20-25 min on 180\", \"Brush another layer of oil and garlic after baking\"]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "bread sticks garlic bread sticks miri krakovski sugar salt yeast water flour ",
+        "created_at": "2026-07-27 18:39:42.582751+00",
+        "updated_at": "2026-07-27 18:47:51.418926+00",
+        "credit": "Miri Krakovski"
+      },
+      {
+        "id": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "owner_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "title": "Apple Pie",
+        "description": "",
+        "ingredients": "[{\"name\": \"margarine, at room temperature\", \"unit\": \"sticks\", \"quantity\": 1.5}, {\"name\": \"sugar 170 gm\", \"unit\": \"cup\", \"quantity\": 0.875}, {\"name\": \"egg\", \"unit\": null, \"quantity\": 1}, {\"name\": \"vanilla extract\", \"unit\": \"tsp.\", \"quantity\": 0.5}, {\"name\": \"flour\", \"unit\": \"packed cups\", \"quantity\": 2}, {\"name\": \"Cortland apples, cut into small cubes\", \"unit\": null, \"quantity\": 8}, {\"name\": \"sugar\", \"unit\": \"cup\", \"quantity\": 0.6666666666666666}, {\"name\": \"light brown sugar\", \"unit\": \"cup\", \"quantity\": 0.3333333333333333}, {\"name\": \"cinnamon\", \"unit\": \"tsp.\", \"quantity\": 1}, {\"name\": \"lemon juice\", \"unit\": \"T.\", \"quantity\": 2}, {\"name\": \"flour\", \"unit\": \"cups\", \"quantity\": 2.25}, {\"name\": \"sugar\", \"unit\": \"cups\", \"quantity\": 1.25}, {\"name\": \"baking powder\", \"unit\": \"T.\", \"quantity\": 1}, {\"name\": \"salt\", \"unit\": \"tsp.\", \"quantity\": 0.75}, {\"name\": \"margarine\", \"unit\": \"sticks\", \"quantity\": 1.25}, {\"name\": \"chopped pecans (not glazed)\", \"unit\": \"cup\", \"quantity\": 0.5}]",
+        "steps": "[\"In a bowl, mix everything together by hand. Divide dough in two. Press each part firmly into a pie pan. (I rolled each part of the dough into a long log and then pressed it into the bottom of the pan and halfway up the sides.)\", \"In a large saucepan or pot, mix all of the ingredients. Cover and place over a medium flame and saute for approximately 25 minutes, stirring several times, until apples become a little soft.\", \"Mix the first five ingredients until crumbly. Mix in the pecans.\", \"Preheat oven to 350°. Press each part of the divided dough into a pan.\", \"Divide the apple filling between the two pies; spread over crust.\", \"Press half of the crumble onto each of the pies. It will look quite dense, but it'll shrink a bit as it bakes.\", \"Bake for 50 minutes. Allow to cool before very carefully removing from the pans. You may want to keep it on the bottom support of the pan.\", \"Top with confectioners' sugar if desired. Best when used the day you bake them.\"]",
+        "servings": "2",
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "apple pie   margarine, at room temperature sugar 170 gm egg vanilla extract flour cortland apples, cut into small cubes sugar light brown sugar cinnamon lemon juice flour sugar baking powder salt margarine chopped pecans (not glazed) baking dessert apple pie pie crumble",
+        "created_at": "2026-07-31 11:04:10.763366+00",
+        "updated_at": "2026-07-31 11:04:11.240951+00",
+        "credit": null
+      },
+      {
+        "id": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "owner_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "title": "סחלב",
+        "description": "",
+        "ingredients": "[{\"name\": \"תוכן השקית\", \"unit\": \"גרם\", \"quantity\": 130}, {\"name\": \"חלב רותח (800 מ\\\"ל)\", \"unit\": \"כוסות\", \"quantity\": 4}, {\"name\": \"קינמון או קוקוס טחון\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[\"רוקנו את תוכן השקית לסיר\", \"הוסיפו 4 כוסות חלב רותח (800 מ\\\"ל)\", \"ערבבו עד להמסה מלאה\", \"מיזגו לשישה גביעים. מומלץ לפזר קינמון או קוקוס טחון\"]",
+        "servings": "6",
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "סחלב   תוכן השקית חלב רותח (800 מ\"ל) קינמון או קוקוס טחון סחלב קינוח משקה",
+        "created_at": "2026-08-03 21:01:40.224151+00",
+        "updated_at": "2026-08-03 21:23:25.58587+00",
+        "credit": null
+      },
+      {
+        "id": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "Avocado Dressing",
+        "description": "",
+        "ingredients": "[{\"name\": \"avocado\", \"unit\": null, \"quantity\": 1}, {\"name\": \"olive oil\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"water, or more for thinner consistency\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"cilantro, basil or parsley leaves\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"lime, juiced\", \"unit\": null, \"quantity\": 1}, {\"name\": \"garlic clove, minced\", \"unit\": null, \"quantity\": 1}, {\"name\": \"salt and pepper, to taste\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[\"Blend in hand blender\"]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "avocado dressing   avocado olive oil water, or more for thinner consistency cilantro, basil or parsley leaves lime, juiced garlic clove, minced salt and pepper, to taste sauce dressing dip avocado",
+        "created_at": "2026-08-05 17:52:45.760896+00",
+        "updated_at": "2026-08-13 15:15:48.599037+00",
+        "credit": null
+      },
+      {
+        "id": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "owner_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "title": "מקלות שוקולד צ'יפס",
+        "description": "",
+        "ingredients": "[{\"name\": \"קמח\", \"unit\": \"כוסות\", \"quantity\": 3}, {\"name\": \"סוכר\", \"unit\": \"כוס\", \"quantity\": 1}, {\"name\": \"סוכר חום דחוס ואפשר סוכר חום רגיל\", \"unit\": \"כוס\", \"quantity\": 1}, {\"name\": \"שמן\", \"unit\": \"כוס\", \"quantity\": 1}, {\"name\": \"ביצים (לערבב במזלג לפני ההוספה לשאר הרכיבים)\", \"unit\": null, \"quantity\": 2}, {\"name\": \"סודה לשתייה\", \"unit\": \"כפית\", \"quantity\": 0.5}, {\"name\": \"קינמון\", \"unit\": \"כפית\", \"quantity\": 0.5}, {\"name\": \"תמצית וניל\", \"unit\": \"כפיות\", \"quantity\": 2}, {\"name\": \"שוקולד צ'יפס\", \"unit\": \"חבילה\", \"quantity\": 1}]",
+        "steps": "[\"מערבבים את המצרכים הנוזלים ולאחר מכן להוסיף כל כוס קמח בנפרד. ובסוף את השוקולד צ'יפס . (אין צורך במיקסר).\", \"תחלקו את הבצק לשתיים כל חצי לתבנית\", \"אפייה: 180 מעלות בטורבו במשך בערך 20 דקות\", \"מיד ברגע שמוציאים מהתנור, השתמשו בחותכן בצק כדי לחתוך במרכז לאורך ואז לרוחב.\"]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": "21",
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "מקלות שוקולד צ'יפס   קמח סוכר סוכר חום דחוס ואפשר סוכר חום רגיל שמן ביצים (לערבב במזלג לפני ההוספה לשאר הרכיבים) סודה לשתייה קינמון תמצית וניל שוקולד צ'יפס אפייה מקלות שוקולד צ'יפס עוגיות קינוחים",
+        "created_at": "2026-08-07 11:37:38.252947+00",
+        "updated_at": "2026-08-07 11:49:51.271938+00",
+        "credit": null
+      },
+      {
+        "id": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "Amaretto Cake",
+        "description": "",
+        "ingredients": "[{\"name\": \"flour\", \"unit\": \"cups\", \"quantity\": 4}, {\"name\": \"sugar\", \"unit\": \"cups\", \"quantity\": 4}, {\"name\": \"baking powder\", \"unit\": \"tsp\", \"quantity\": 4}, {\"name\": \"oil\", \"unit\": \"cup\", \"quantity\": 0.6666666666666666}, {\"name\": \"eggs\", \"unit\": null, \"quantity\": 8}, {\"name\": \"instant vanilla pudding mix\", \"unit\": \"boxes\", \"quantity\": 2}, {\"name\": \"orange juice\", \"unit\": \"cups\", \"quantity\": 1.5}, {\"name\": \"vodka\", \"unit\": \"cup\", \"quantity\": 0.5}, {\"name\": \"amaretto liquor\", \"unit\": \"cup\", \"quantity\": 0.5}, {\"name\": \"chocolate syrup\", \"unit\": \"cup\", \"quantity\": 0.75}, {\"name\": \"confectionery sugar\", \"unit\": \"cup\", \"quantity\": 1}, {\"name\": \"water\", \"unit\": \"Tbl\", \"quantity\": 3}, {\"name\": \"oil\", \"unit\": \"Tbl\", \"quantity\": 3}, {\"name\": \"vanilla extract\", \"unit\": \"tsp\", \"quantity\": 1}, {\"name\": \"brown sugar\", \"unit\": \"cup\", \"quantity\": 1}, {\"name\": \"cocoa\", \"unit\": \"Tbl\", \"quantity\": 3}, {\"name\": \"cinnamon\", \"unit\": \"Tbl\", \"quantity\": 1.5}]",
+        "steps": "[\"Mix everything together in a mixer.\", \"Spray 2 bundt pans very well with cooking oil that has flour in it. (Like really well).\", \"Pour cake batter into pans leaving 1/8 of the batter in the mixer.\", \"Pour 3/4 cup chocolate syrup into the remaining batter. Mix well. Pour over the cakes. No need to swirl it in.\", \"Bake on 350 for 55-60 minutes. Every oven is different.\", \"After flipping the cakes over, let them cool before adding frosting or some white powdered sugar.\", \"Icing: Mix confectionery sugar, water, oil, and vanilla extract with a spoon. If it’s too thin add some more sugar. If it’s too thick add a little water.\", \"Updated filling option instead of chocolate syrup: after pouring 3/4 of the batter into pans - add to remaining batter in the mixer 1 cup brown sugar, 3 Tbl cocoa, 1.5 Tbl cinnamon. Mix and drizzle over the pans.\"]",
+        "servings": "2",
+        "prep_minutes": null,
+        "cook_minutes": "55",
+        "difficulty": "easy",
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "amaretto cake  chantz flour sugar baking powder oil eggs instant vanilla pudding mix orange juice vodka amaretto liquor chocolate syrup confectionery sugar water oil vanilla extract brown sugar cocoa cinnamon baking cake dessert bundt cake amaretto cake",
+        "created_at": "2026-08-13 18:28:31.835176+00",
+        "updated_at": "2026-08-13 18:28:32.285593+00",
+        "credit": "Chantz"
+      },
+      {
+        "id": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "Sourdough Bagels",
+        "description": "",
+        "ingredients": "[{\"name\": \"water\", \"unit\": \"g\", \"quantity\": 464}, {\"name\": \"active starter\", \"unit\": \"g\", \"quantity\": 332}, {\"name\": \"flour\", \"unit\": \"g\", \"quantity\": 1112}, {\"name\": \"sugar (or white. Idc)\", \"unit\": \"g\", \"quantity\": 55}, {\"name\": \"mapple syrup (no, don't replace this with honey, you can, but don't)\", \"unit\": \"g\", \"quantity\": 55}, {\"name\": \"salt\", \"unit\": \"g\", \"quantity\": 22}, {\"name\": \"some honey for boiling\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[\"Mix water + starter, then add maple syrup (not honey, honey will have its place just wait), sugar, flour, and salt. Mix until shaggy.\", \"Knead briefly, shape into a ball, cover, and rest 1 hour.\", \"Knead again, reshape, return to bowl seam-side down, and bulk ferment until doubled\", \"Let dough release naturally, divide into 12 pieces and shape into tight balls.\", \"Cover and rest 30-60 minutes.\", \"Poke a hole in each ball and gently stretch into bagels.\", \"Final rise until soft and puffy.\", \"Preheat oven to 425°F. Boil water + add about 50g honey. Boil bagels 30 seconds per side.\", \"Place on parchment-lined sheet and bake 15–18 minutes until golden and glossy.\", \"Cool at least 1 hour before slicing - I don't follow this rule 🤌🏻\"]",
+        "servings": "12",
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "sourdough bagels  instagram water active starter flour sugar (or white. idc) mapple syrup (no, don't replace this with honey, you can, but don't) salt some honey for boiling baking bread sourdough bagels",
+        "created_at": "2026-08-26 18:59:13.238525+00",
+        "updated_at": "2026-08-26 18:59:13.809101+00",
+        "credit": "Instagram"
+      },
+      {
+        "id": "66353710-f855-431c-9981-b65debcfc28f",
+        "owner_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "title": "מאפינס גזר פקאן",
+        "description": "",
+        "ingredients": "[{\"name\": \"ביצים L\", \"unit\": null, \"quantity\": 2}, {\"name\": \"סוכר חום כהה/בהיר (150 גרם)\", \"unit\": \"כוס\", \"quantity\": 0.75}, {\"name\": \"שמן קנולה\", \"unit\": \"כוס\", \"quantity\": 0.5}, {\"name\": \"קינמון\", \"unit\": \"כפית\", \"quantity\": 0.25}, {\"name\": \"וניל\", \"unit\": \"כפית\", \"quantity\": 1}, {\"name\": \"כוסמין (מלא/לבן) אפשר גם קמח לבן\", \"unit\": \"כוס\", \"quantity\": 1.5}, {\"name\": \"אבקת אפיה\", \"unit\": \"כפית\", \"quantity\": 1}, {\"name\": \"סודה לשתיה\", \"unit\": \"כפית\", \"quantity\": 0.5}, {\"name\": \"גזרים בינוניים מגוררים דק\", \"unit\": null, \"quantity\": 2}, {\"name\": \"קינמון (לציפוי)\", \"unit\": \"כפית\", \"quantity\": 1}, {\"name\": \"אגוזי פקאן טבעיים קצוצים (לציפוי)\", \"unit\": null, \"quantity\": 12}, {\"name\": \"סוכר חום כהה (לציפוי)\", \"unit\": \"כפות גדושות\", \"quantity\": 4}, {\"name\": \"סירופ מייפל טבעי (לציפוי)\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[\"מחממים תנור ל 170 מעלות.\", \"בקערה טורפים ביצים שמן קינמון סוכר ווניל לתערובת אחידה ומעט תפוחה\", \"מוסיפים קמח אבקת אפיה וסודה לשתיה מערבבים בקצרה ומוסיפים גזרים ומערבבים לתערובת אחידה.\", \"בעזרת כף (מומלץ עם כף קפיצית) מניחים בתוך המאפינס (עד 3/4 גובה)\", \"מערבבים סוכר וקינמון ופקאן ומפזרים מעל המאפינס.\", \"אופים במשך 15-20 דקות\", \"בודקים שמוכן בעזרת קיסם במרכז המאפינס.\", \"מוציאים מהתנור ומברישים מיד סירופ מייפל בנדיבות.\"]",
+        "servings": "12",
+        "prep_minutes": null,
+        "cook_minutes": "15",
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "מאפינס גזר פקאן   ביצים l סוכר חום כהה/בהיר (150 גרם) שמן קנולה קינמון וניל כוסמין (מלא/לבן) אפשר גם קמח לבן אבקת אפיה סודה לשתיה גזרים בינוניים מגוררים דק קינמון (לציפוי) אגוזי פקאן טבעיים קצוצים (לציפוי) סוכר חום כהה (לציפוי) סירופ מייפל טבעי (לציפוי) אפייה מתוקים גזר מאפינס",
+        "created_at": "2026-08-27 04:24:15.521055+00",
+        "updated_at": "2026-08-27 04:24:15.938427+00",
+        "credit": null
+      },
+      {
+        "id": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "owner_id": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "title": "Green dip",
+        "description": "",
+        "ingredients": "[{\"name\": \"parsley with the stems\", \"unit\": \"big bunch\", \"quantity\": 1}, {\"name\": \"mayo\", \"unit\": \"cup\", \"quantity\": 2}, {\"name\": \"garlic\", \"unit\": \"cloves\", \"quantity\": 3}, {\"name\": \"vinegar\", \"unit\": \"tablespoons\", \"quantity\": 1}, {\"name\": \"sugar\", \"unit\": \"tablespoon\", \"quantity\": 1}, {\"name\": \"Salt & pepper\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "green dip   parsley with the stems mayo garlic vinegar sugar salt & pepper parsley sauce dip",
+        "created_at": "2026-08-27 12:48:00.370258+00",
+        "updated_at": "2026-08-27 12:48:00.801941+00",
+        "credit": null
+      },
+      {
+        "id": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "סלט כרוב עם בוטנים",
+        "description": "קצת שונה מהסלט הרגיל והמוכר על גרסאות תוספותיו השונות. את הסלט הזה הכנתי לאירוע משפחתי גדול, מאז הוא מבוקש אצלנו במשפחה המורחבת. ויש לזה סיבה טובה מאוד. טעם קצת שונה עם ניחוח אסייאתי. את הרוטב מכינים מראש והוא נשמר במקרר במשך שבוע ויותר, כך שניתן להכין ממנו כמות גדולה ולהשתמש בשתי שבתות.",
+        "ingredients": "[{\"name\": \"ראש כרוב סגול לא גדול\", \"unit\": null, \"quantity\": 1}, {\"name\": \"צרור בצל ירוק\", \"unit\": null, \"quantity\": 1}, {\"name\": \"בצל סגול\", \"unit\": null, \"quantity\": 1}, {\"name\": \"גזרים\", \"unit\": null, \"quantity\": 2}, {\"name\": \"קופסא נבטי חמנייה, או נבטים סיניים בהיעדר נבטי חמנייה\", \"unit\": null, \"quantity\": 1}, {\"name\": \"גרעיני חמנייה\", \"unit\": \"כוס\", \"quantity\": 1}, {\"name\": \"בוטנים חצויים קלויים\", \"unit\": \"כוסות\", \"quantity\": 1.5}, {\"name\": \"שומשום - לא חובה\", \"unit\": null, \"quantity\": null}, {\"name\": \"חמאת בוטנים חלקה\", \"unit\": \"כפות\", \"quantity\": 3}, {\"name\": \"חומץ\", \"unit\": \"כוס\", \"quantity\": 0.5}, {\"name\": \"רוטב סויה\", \"unit\": \"כפות\", \"quantity\": 2}, {\"name\": \"רוטב צ'ילי מתוק\", \"unit\": \"כפות\", \"quantity\": 2}, {\"name\": \"מיץ לימון\", \"unit\": \"כף\", \"quantity\": 1}, {\"name\": \"דבש\", \"unit\": \"כוס\", \"quantity\": 0.3333333333333333}, {\"name\": \"סוכר דמררה\", \"unit\": \"כפות\", \"quantity\": 2}, {\"name\": \"מלח\", \"unit\": \"כפית\", \"quantity\": 1}, {\"name\": \"שמן\", \"unit\": \"כפות\", \"quantity\": 3}, {\"name\": \"מיונז\", \"unit\": \"כף\", \"quantity\": 1}]",
+        "steps": "[\"קוצצים את הכרוב לחתיכות לא דקיקות ממש.\", \"חותכים את הבצל הירוק לטבעות, ללא החלק הקרוב לפקעת.\", \"חותכים את הגזרים לגפרורים דקים.\", \"פורסים את הבצל הסגול לרבעי טבעות דקיקות.\", \"שמים בקערה את כל הירקות והפיצוחים.\", \"שמים בכלי גבוה את רכיבי הרוטב וטוחנים בבלנדר מוט לרוטב חלק.\", \"טועמים את הרוטב ומוסיפים סוכר לפי הטעם.\", \"יוצקים על הרכיבים שבקערה ומערבבים היטב.\", \"את הרוטב יוצקים רק בסמוך להגשה.\"]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "סלט כרוב עם בוטנים קצת שונה מהסלט הרגיל והמוכר על גרסאות תוספותיו השונות. את הסלט הזה הכנתי לאירוע משפחתי גדול, מאז הוא מבוקש אצלנו במשפחה המורחבת. ויש לזה סיבה טובה מאוד. טעם קצת שונה עם ניחוח אסייאתי. את הרוטב מכינים מראש והוא נשמר במקרר במשך שבוע ויותר, כך שניתן להכין ממנו כמות גדולה ולהשתמש בשתי שבתות. tzivia ראש כרוב סגול לא גדול צרור בצל ירוק בצל סגול גזרים קופסא נבטי חמנייה, או נבטים סיניים בהיעדר נבטי חמנייה גרעיני חמנייה בוטנים חצויים קלויים שומשום - לא חובה חמאת בוטנים חלקה חומץ רוטב סויה רוטב צ'ילי מתוק מיץ לימון דבש סוכר דמררה מלח שמן מיונז בוטנים פרווה סלט כרוב אסייאתי",
+        "created_at": "2026-08-27 20:15:26.586574+00",
+        "updated_at": "2026-08-27 20:15:27.094024+00",
+        "credit": "Tzivia"
+      },
+      {
+        "id": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "עוגת חלווה",
+        "description": "",
+        "ingredients": "[{\"name\": \"flour\", \"unit\": \"cups\", \"quantity\": 3}, {\"name\": \"baking powder\", \"unit\": null, \"quantity\": 1}, {\"name\": \"sugar\", \"unit\": null, \"quantity\": 1.5}, {\"name\": \"margarine\", \"unit\": null, \"quantity\": 0.2}, {\"name\": \"eggs\", \"unit\": null, \"quantity\": 3}, {\"name\": \"walnuts\", \"unit\": \"cups\", \"quantity\": 2}, {\"name\": \"chocolate\", \"unit\": \"g\", \"quantity\": 250}, {\"name\": \"margarine\", \"unit\": null, \"quantity\": 0.25}, {\"name\": \"coffee\", \"unit\": \"tablespoons\", \"quantity\": 2}, {\"name\": \"yellow of egg\", \"unit\": null, \"quantity\": 6}, {\"name\": \"sugar (for whites)\", \"unit\": \"cup\", \"quantity\": 1}, {\"name\": \"halva\", \"unit\": \"g\", \"quantity\": 250}, {\"name\": \"vanilla sugar\", \"unit\": null, \"quantity\": 2}, {\"name\": \"water\", \"unit\": \"cup\", \"quantity\": 0.25}, {\"name\": \"sugar\", \"unit\": \"tablespoons\", \"quantity\": 3}, {\"name\": \"cocoa\", \"unit\": \"tablespoons\", \"quantity\": 3}, {\"name\": \"margarine\", \"unit\": null, \"quantity\": 0.25}]",
+        "steps": "[\"Bake for 15 mins in 180\", \"Cool off\", \"Add 6 yellow of egg\", \"Blend the whites with 1 cup sugar\", \"Mix together pour on cake and bake for another 25 mins\", \"Cook and pour on cold cake\"]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": "40",
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "עוגת חלווה   flour baking powder sugar margarine eggs walnuts chocolate margarine coffee yellow of egg sugar (for whites) halva vanilla sugar water sugar cocoa margarine baking cake dessert halva",
+        "created_at": "2026-08-27 20:17:41.02083+00",
+        "updated_at": "2026-08-27 20:17:41.38299+00",
+        "credit": null
+      },
+      {
+        "id": "06b4158f-195e-451c-a3f0-72949a530d6c",
+        "owner_id": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "title": "סלט כרוב סיני",
+        "description": "",
+        "ingredients": "[{\"name\": \"חצי כרוב לבן\", \"unit\": null, \"quantity\": null}, {\"name\": \"שומשום ושקדים מולבנים קלויים\", \"unit\": null, \"quantity\": null}, {\"name\": \"סוכר חום\", \"unit\": \"כוס\", \"quantity\": 0.25}, {\"name\": \"סויה\", \"unit\": \"כוס\", \"quantity\": 0.25}, {\"name\": \"שמן\", \"unit\": \"כוס\", \"quantity\": 0.25}, {\"name\": \"חומץ\", \"unit\": \"כוס\", \"quantity\": 0.25}]",
+        "steps": "[]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "manual",
+        "search_text": "סלט כרוב סיני   חצי כרוב לבן שומשום ושקדים מולבנים קלויים סוכר חום סויה שמן חומץ ",
+        "created_at": "2026-08-27 20:49:18.484334+00",
+        "updated_at": "2026-08-27 20:53:51.9804+00",
+        "credit": null
+      },
+      {
+        "id": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "סלט כרוב עם שומר וקולורבי",
+        "description": "",
+        "ingredients": "[{\"name\": \"Cabbage\", \"unit\": null, \"quantity\": 0.5}, {\"name\": \"Colorabi\", \"unit\": null, \"quantity\": 1}, {\"name\": \"Shumar\", \"unit\": null, \"quantity\": 1}, {\"name\": \"Parcali/kusbara\", \"unit\": \"pack\", \"quantity\": 0.3333333333333333}, {\"name\": \"small Peppers\", \"unit\": null, \"quantity\": 4}, {\"name\": \"salt\", \"unit\": \"tablespoon\", \"quantity\": 1}, {\"name\": \"sugar\", \"unit\": \"spoon\", \"quantity\": 1}, {\"name\": \"lemon\", \"unit\": null, \"quantity\": 2}, {\"name\": \"oil\", \"unit\": \"cup\", \"quantity\": 0.3333333333333333}, {\"name\": \"חומץ\", \"unit\": \"tablespoon\", \"quantity\": 1}]",
+        "steps": "[]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "סלט כרוב עם שומר וקולורבי  חני-גיסתי cabbage colorabi shumar parcali/kusbara small peppers salt sugar lemon oil חומץ salad kohlrabi fennel",
+        "created_at": "2026-08-27 21:06:40.735172+00",
+        "updated_at": "2026-08-27 21:06:55.503047+00",
+        "credit": "חני-גיסתי"
+      },
+      {
+        "id": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "רוטב מיונז-סלט פסטרמה",
+        "description": "",
+        "ingredients": "[{\"name\": \"sugar\", \"unit\": \"table spoons\", \"quantity\": 2}, {\"name\": \"garlic\", \"unit\": null, \"quantity\": 2}, {\"name\": \"mastered\", \"unit\": \"table spoon\", \"quantity\": 1}, {\"name\": \"mayo\", \"unit\": \"table spoons\", \"quantity\": 2}, {\"name\": \"oil\", \"unit\": \"cup\", \"quantity\": 0.75}, {\"name\": \"water\", \"unit\": \"cup\", \"quantity\": 0.5}, {\"name\": \"Little salt\", \"unit\": null, \"quantity\": null}]",
+        "steps": "[]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "רוטב מיונז-סלט פסטרמה  חני-גיסתי sugar garlic mastered mayo oil water little salt sauce dressing garlic mayo",
+        "created_at": "2026-08-27 20:19:53.908937+00",
+        "updated_at": "2026-08-28 08:07:06.404625+00",
+        "credit": "חני-גיסתי"
+      },
+      {
+        "id": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "owner_id": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "title": "עוגת טורט בשני צבעים עם קרם חלוה",
+        "description": "",
+        "ingredients": "[{\"name\": \"ביצים\", \"unit\": null, \"quantity\": 10}, {\"name\": \"סוכר\", \"unit\": \"כוס\", \"quantity\": 1}, {\"name\": \"קמח\", \"unit\": \"כוסות\", \"quantity\": 2.5}, {\"name\": \"סוכר\", \"unit\": \"כוס\", \"quantity\": 1.5}, {\"name\": \"א. אפיה\", \"unit\": null, \"quantity\": 1}, {\"name\": \"סוכר וניל\", \"unit\": null, \"quantity\": 1}, {\"name\": \"שמן\", \"unit\": \"כוס\", \"quantity\": 0.5}, {\"name\": \"מיץ\", \"unit\": \"כוס\", \"quantity\": 1}, {\"name\": \"מלית חלוה\", \"unit\": \"גרם\", \"quantity\": 400}, {\"name\": \"ריצ לא מוקצף\", \"unit\": null, \"quantity\": null}, {\"name\": \"מייפל\", \"unit\": \"כוס\", \"quantity\": 0.25}, {\"name\": \"קפה\", \"unit\": \"כפות\", \"quantity\": 2}]",
+        "steps": "[\"להקציף חלבונים עם כוס סוכר\", \"לערבב בנפרד את שאר החומרים ולאחד את התערובות .\", \"לשטוח חצי מהתערובת על תבנית תנור ולאפות\", \"ולשני להוסיף 3 כפות נמס ולאפות ...\", \"לבשל בסיר עד שמתאחד\", \"להרכיב את העוגה לבן קרם / חום קרם ולמעלה שקדים פרוסים מולבנים .\"]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "עוגת טורט בשני צבעים עם קרם חלוה  חמותה של חיה דינה ביצים סוכר קמח סוכר א. אפיה סוכר וניל שמן מיץ מלית חלוה ריצ לא מוקצף מייפל קפה קינוחים עוגה עוגת טורט חלוה",
+        "created_at": "2026-09-06 22:06:15.647714+00",
+        "updated_at": "2026-09-06 22:06:16.034697+00",
+        "credit": "חמותה של חיה דינה"
+      },
+      {
+        "id": "89fabf85-16c3-4eac-bbfc-300d7f1eeec1",
+        "owner_id": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "title": "עוגת שמנת",
+        "description": "",
+        "ingredients": "[{\"name\": \"קמח\", \"unit\": null, \"quantity\": 3}]",
+        "steps": "[]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "עוגת שמנת   קמח ",
+        "created_at": "2026-09-10 20:00:55.93322+00",
+        "updated_at": "2026-09-10 20:00:56.137642+00",
+        "credit": null
+      },
+      {
+        "id": "e11eac8f-e315-47d1-b8b9-f1ef44d2c167",
+        "owner_id": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "title": "עוגת דבש",
+        "description": "",
+        "ingredients": "[{\"name\": \"ביצים\", \"unit\": null, \"quantity\": 6}]",
+        "steps": "[]",
+        "servings": null,
+        "prep_minutes": null,
+        "cook_minutes": null,
+        "difficulty": null,
+        "visibility": "family",
+        "source": "photo",
+        "search_text": "עוגת דבש   ביצים ",
+        "created_at": "2026-09-10 20:02:19.487765+00",
+        "updated_at": "2026-09-10 20:02:19.658101+00",
+        "credit": null
+      }
+    ],
+    "tags": [
+      {
+        "id": "3c9213f1-4496-42a4-81b9-d5354a9b581f",
+        "name": "שקשוקה",
+        "created_at": "2026-07-19 05:44:23.691802+00"
+      },
+      {
+        "id": "4bdaa2bd-ecde-4f20-816d-588a9d95f23f",
+        "name": "ארוחת בוקר",
+        "created_at": "2026-07-19 05:44:23.898293+00"
+      },
+      {
+        "id": "9cf71879-5113-4955-a3b1-f8b39ea970a2",
+        "name": "קל להכנה",
+        "created_at": "2026-07-19 05:44:24.102366+00"
+      },
+      {
+        "id": "d5f8cbba-ea2c-487f-b8c3-8ddb6ce28591",
+        "name": "צמחוני",
+        "created_at": "2026-07-19 05:44:24.303078+00"
+      },
+      {
+        "id": "f92567d9-5ab4-4044-8d14-f2e30ef3c0ec",
+        "name": "קארי",
+        "created_at": "2026-07-21 03:52:45.863167+00"
+      },
+      {
+        "id": "242fb603-59f9-4185-bec9-85e0a42327ba",
+        "name": "לחם נאן",
+        "created_at": "2026-07-21 03:52:45.907974+00"
+      },
+      {
+        "id": "4a54ea3e-29e4-4bf8-9f08-3cdf437f4049",
+        "name": "אסייתי",
+        "created_at": "2026-07-21 03:52:45.948519+00"
+      },
+      {
+        "id": "3e593191-bb54-40bc-9c7c-d316430e97a2",
+        "name": "chocolate cake",
+        "created_at": "2026-07-23 22:10:34.566914+00"
+      },
+      {
+        "id": "55742e4f-2256-414b-88af-946230820c7f",
+        "name": "dessert",
+        "created_at": "2026-07-23 22:10:34.622205+00"
+      },
+      {
+        "id": "d0035180-5064-4d3b-9f83-22767d885126",
+        "name": "מאפים",
+        "created_at": "2026-07-27 16:33:34.888336+00"
+      },
+      {
+        "id": "eca8aec1-5d21-4492-9896-c247e4b182e2",
+        "name": "קלצונה",
+        "created_at": "2026-07-27 16:33:34.947089+00"
+      },
+      {
+        "id": "16f1a15c-2f65-4968-9304-e929a26e3bef",
+        "name": "חלבי",
+        "created_at": "2026-07-27 16:33:35.003202+00"
+      },
+      {
+        "id": "d084553a-4647-4be0-9d11-fb9ef0863908",
+        "name": "גבינות",
+        "created_at": "2026-07-27 16:33:35.048766+00"
+      },
+      {
+        "id": "6bcba860-02d7-46dc-a614-9993c9995671",
+        "name": "איטלקי",
+        "created_at": "2026-07-27 16:33:35.096988+00"
+      },
+      {
+        "id": "715c6050-e7cc-4a1e-94b4-24942d220bd1",
+        "name": "apple pie",
+        "created_at": "2026-07-31 11:04:10.973841+00"
+      },
+      {
+        "id": "03e98015-dbce-449a-9b7f-1fa320b209ec",
+        "name": "baking",
+        "created_at": "2026-07-31 11:04:11.081462+00"
+      },
+      {
+        "id": "7825debc-6f41-4c42-bdef-7b33887bd453",
+        "name": "pie",
+        "created_at": "2026-07-31 11:04:11.133071+00"
+      },
+      {
+        "id": "c5a8fcbd-8f4a-47a8-b2c4-48771508db0c",
+        "name": "crumble",
+        "created_at": "2026-07-31 11:04:11.18351+00"
+      },
+      {
+        "id": "034679fe-e595-48be-a099-8c13157fa03a",
+        "name": "סחלב",
+        "created_at": "2026-08-03 21:01:40.464647+00"
+      },
+      {
+        "id": "67461786-a9ec-49ff-8b7c-cc864b452748",
+        "name": "קינוח",
+        "created_at": "2026-08-03 21:01:40.524531+00"
+      },
+      {
+        "id": "ec588133-27e1-4102-a43b-a2a965804c7e",
+        "name": "משקה",
+        "created_at": "2026-08-03 21:01:40.589615+00"
+      },
+      {
+        "id": "fab05d7d-a7aa-4da2-8b7d-e3c95f8e37fe",
+        "name": "avocado",
+        "created_at": "2026-08-05 17:52:45.96141+00"
+      },
+      {
+        "id": "81467fe1-0dc2-4f85-83d1-5d64d1f8c720",
+        "name": "sauce",
+        "created_at": "2026-08-05 17:52:46.01187+00"
+      },
+      {
+        "id": "906dbd7b-1a54-4ac1-801b-b2852228264c",
+        "name": "dressing",
+        "created_at": "2026-08-05 17:52:46.053463+00"
+      },
+      {
+        "id": "ef80ee19-4627-458a-b142-035d770db551",
+        "name": "dip",
+        "created_at": "2026-08-05 17:52:46.092657+00"
+      },
+      {
+        "id": "2bcd1d6e-3d1f-4f10-b99d-57dc254b4a7f",
+        "name": "biscotti",
+        "created_at": "2026-08-07 11:33:02.363451+00"
+      },
+      {
+        "id": "b68e41ab-46fb-4839-9647-32945552d738",
+        "name": "cookies",
+        "created_at": "2026-08-07 11:33:02.424916+00"
+      },
+      {
+        "id": "090f4ec4-d375-4951-a948-6d1bd7ffba90",
+        "name": "chocolate chip",
+        "created_at": "2026-08-07 11:33:02.484806+00"
+      },
+      {
+        "id": "b4d58074-087e-472a-afca-a0618051ead9",
+        "name": "freezer friendly",
+        "created_at": "2026-08-07 11:33:02.545157+00"
+      },
+      {
+        "id": "30e57a8b-0c8b-4405-a57c-44309d50d2a4",
+        "name": "מקלות שוקולד צ'יפס",
+        "created_at": "2026-08-07 11:37:38.438385+00"
+      },
+      {
+        "id": "34803f73-7e05-4573-ae4a-9d403f23a0a1",
+        "name": "עוגיות",
+        "created_at": "2026-08-07 11:37:38.482649+00"
+      },
+      {
+        "id": "0be2d404-e2c0-4e29-93fc-0935b5e60fa0",
+        "name": "אפייה",
+        "created_at": "2026-08-07 11:37:38.527732+00"
+      },
+      {
+        "id": "45acefd1-72e5-4c71-8d4b-9f9078b4d182",
+        "name": "קינוחים",
+        "created_at": "2026-08-07 11:37:38.571414+00"
+      },
+      {
+        "id": "f04edc96-5173-4bd6-812e-b923abf9278e",
+        "name": "amaretto cake",
+        "created_at": "2026-08-13 18:28:32.084807+00"
+      },
+      {
+        "id": "6d563868-1a8f-4c68-a473-0a643c1aa34c",
+        "name": "bundt cake",
+        "created_at": "2026-08-13 18:28:32.144067+00"
+      },
+      {
+        "id": "2aeda951-8e80-4532-9ca9-90caff24d4da",
+        "name": "cake",
+        "created_at": "2026-08-13 18:28:32.190646+00"
+      },
+      {
+        "id": "e9e60392-dc17-4306-acf6-0fd6eed58b0f",
+        "name": "bagels",
+        "created_at": "2026-08-26 18:59:13.522887+00"
+      },
+      {
+        "id": "906280e7-5c19-436f-90fe-6af804eddc22",
+        "name": "sourdough",
+        "created_at": "2026-08-26 18:59:13.591568+00"
+      },
+      {
+        "id": "6072ceb8-de46-44f8-b697-e62df45ce9ca",
+        "name": "bread",
+        "created_at": "2026-08-26 18:59:13.703029+00"
+      },
+      {
+        "id": "dde9eef0-6a4e-4656-b7f4-fd712a18274c",
+        "name": "מאפינס",
+        "created_at": "2026-08-27 04:24:15.732367+00"
+      },
+      {
+        "id": "c05168ee-9958-4875-855a-302f60422f77",
+        "name": "גזר",
+        "created_at": "2026-08-27 04:24:15.79224+00"
+      },
+      {
+        "id": "630dac04-c248-4564-9a89-190d5b0e5a55",
+        "name": "מתוקים",
+        "created_at": "2026-08-27 04:24:15.866764+00"
+      },
+      {
+        "id": "298a4606-037e-43ba-8eb8-f04f9ca50563",
+        "name": "parsley",
+        "created_at": "2026-08-27 12:48:00.677418+00"
+      },
+      {
+        "id": "a48f740b-62ee-49d8-b70b-88d5a0d103c1",
+        "name": "סלט",
+        "created_at": "2026-08-27 20:15:26.824841+00"
+      },
+      {
+        "id": "e4f35cbd-bd5a-4bbc-84ea-953ae6646755",
+        "name": "כרוב",
+        "created_at": "2026-08-27 20:15:26.870603+00"
+      },
+      {
+        "id": "0d944411-d660-4406-9180-83042824e946",
+        "name": "בוטנים",
+        "created_at": "2026-08-27 20:15:26.921688+00"
+      },
+      {
+        "id": "eb762edb-165a-4d22-9eba-bdd9f3d9baec",
+        "name": "אסייאתי",
+        "created_at": "2026-08-27 20:15:26.977645+00"
+      },
+      {
+        "id": "a2bff92b-7bd9-49ff-ac09-8cb91a872dba",
+        "name": "פרווה",
+        "created_at": "2026-08-27 20:15:27.041941+00"
+      },
+      {
+        "id": "74e373b8-5d61-40ea-b037-b1fb3ab41521",
+        "name": "halva",
+        "created_at": "2026-08-27 20:17:41.259505+00"
+      },
+      {
+        "id": "fa6d0fbe-0203-4f68-92f7-c2c8a36842bf",
+        "name": "garlic",
+        "created_at": "2026-08-27 20:19:54.133766+00"
+      },
+      {
+        "id": "58fb755f-bff5-4bea-a873-74a210e3f7fd",
+        "name": "mayo",
+        "created_at": "2026-08-27 20:19:54.187715+00"
+      },
+      {
+        "id": "656fa87d-18e0-4ec1-8bc9-f18e605f4415",
+        "name": "salad",
+        "created_at": "2026-08-27 21:06:40.993865+00"
+      },
+      {
+        "id": "31e8d45f-b5ae-44e3-af20-e4d2da72461c",
+        "name": "kohlrabi",
+        "created_at": "2026-08-27 21:06:41.039359+00"
+      },
+      {
+        "id": "825c146a-2d8b-4806-8195-48de1e5253ad",
+        "name": "fennel",
+        "created_at": "2026-08-27 21:06:41.086326+00"
+      },
+      {
+        "id": "a7fa3abe-c4fe-4df5-9174-ba850bfbfd02",
+        "name": "עוגה",
+        "created_at": "2026-09-06 22:06:15.850874+00"
+      },
+      {
+        "id": "11ca91b8-7b96-4321-9ba5-52d879531f2b",
+        "name": "עוגת טורט",
+        "created_at": "2026-09-06 22:06:15.910376+00"
+      },
+      {
+        "id": "e7cf44bd-b8af-4bf2-a126-104ce65b248f",
+        "name": "חלוה",
+        "created_at": "2026-09-06 22:06:15.982511+00"
+      }
+    ],
+    "timer_reminders": [
+      {
+        "id": "6860383a-5809-4ce8-ae92-6a6a8c9c5e6f",
+        "user_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "fire_at": "2026-07-23 22:12:47.344+00",
+        "label": "1 דקות",
+        "recipe_title": "המתכונים שלנו",
+        "sent": "t",
+        "created_at": "2026-07-23 22:11:50.180268+00",
+        "kind": "timer"
+      },
+      {
+        "id": "43f8b613-c2cc-41d4-8c94-7b61ea84c1a3",
+        "user_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "fire_at": "2026-08-30 04:15:08.423+00",
+        "label": "1 דקה",
+        "recipe_title": "המתכונים שלנו",
+        "sent": "t",
+        "created_at": "2026-08-30 04:14:08.904282+00",
+        "kind": "timer"
+      },
+      {
+        "id": "ea0ff7b8-5aec-4dfc-9184-7c8f7a894a19",
+        "user_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "fire_at": "2026-08-30 04:47:45.803+00",
+        "label": "בדיקת התראות",
+        "recipe_title": "ההתראות עובדות גם כשהאפליקציה סגורה",
+        "sent": "t",
+        "created_at": "2026-08-30 04:46:46.069138+00",
+        "kind": "test"
+      },
+      {
+        "id": "e0f6a45a-28f6-4eae-bb4e-7ea2dfbb9f4f",
+        "user_id": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "fire_at": "2026-08-30 14:47:42.165+00",
+        "label": "בדיקת התראות",
+        "recipe_title": "ההתראות עובדות גם כשהאפליקציה סגורה",
+        "sent": "t",
+        "created_at": "2026-08-30 14:46:42.26026+00",
+        "kind": "test"
+      }
+    ]
+  },
+  "sensitive_operational_tables_omitted_from_client_bundle": {
+    "push_subscriptions": {
+      "count": 2,
+      "record_checksums": [
+        {
+          "pk": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+          "updated_at": "2026-08-30 14:46:41.670616+00",
+          "sha256": "38d8d92e3ab91a8a384f49cdb5552ba149b00bb522289761167a7a89299d2adf"
+        },
+        {
+          "pk": "3a8ad0ef-3528-4530-955e-876f551640b3",
+          "updated_at": "2026-09-14 15:07:18.83128+00",
+          "sha256": "106aedebac6a0d356521fd161b54a2384a406009c7bfc301d722c0cb0c0dace1"
+        }
+      ]
+    },
+    "family_invites": {
+      "count": 5,
+      "record_checksums": [
+        {
+          "pk": "98ac157e115547448023020f6b1140ac36098cef151a44f5b35175797b00fee0",
+          "updated_at": "2026-08-30 04:11:28.577754+00",
+          "sha256": "8aedaf7b676842439ea9e1416fe17f39298819eb52681dff3b743cbbdddd9f52"
+        },
+        {
+          "pk": "7ae1b8e9b85248488ec218a9a81b601963e444f4f2aa4d1c931cd00a47542d5c",
+          "updated_at": "2026-08-30 04:11:44.393654+00",
+          "sha256": "14611a86bfa414484c4152913d7e1af32209c9a2ec9e93dca193515b8dfc0f51"
+        },
+        {
+          "pk": "74083715c01c4a0e859786fca5416f22934da0c069f148a7b102e71eed117421",
+          "updated_at": "2026-08-30 04:53:54.570347+00",
+          "sha256": "931aaa9ded96e46df76a5ef3b98be8e253c8f3cda12a336415fe6b824d5611dc"
+        },
+        {
+          "pk": "5991dc61bb0c4a1a81cf7513212d70deb02abd77c76f479c9583f88ae3e68706",
+          "updated_at": "2026-08-30 04:54:00.792089+00",
+          "sha256": "1f9900874ac5c4df73dbc6cad0daed3372c81fcd0c8957af0b170accb4acb874"
+        },
+        {
+          "pk": "7f857e19f4fe41e6b67f53909b3ad66e7541f1c293a14c34b129fdff34d28c6f",
+          "updated_at": "2026-08-30 16:48:31.350217+00",
+          "sha256": "5adc806dc844d65feb329d10799bef22accb535cba0bdc65b4760dd3dca3dd1a"
+        }
+      ]
+    }
+  },
+  "per_record_manifest": {
+    "ai_usage": [
+      {
+        "pk": "2026-08-28",
+        "updated_at": "2026-08-28",
+        "sha256": "080d941402a25b9d096202bbfb4ef611604dcddc83fb9e307feb7c5219ac8214"
+      },
+      {
+        "pk": "2026-07-20",
+        "updated_at": "2026-07-20",
+        "sha256": "3df99b09a8b73962d66ece52afaa2087939808629d077149e210aa598d02e4b4"
+      },
+      {
+        "pk": "2026-08-10",
+        "updated_at": "2026-08-10",
+        "sha256": "8f35b0560fc6280ce536fecd70b1ad5f176d8a678610ec77b7386eb7c6d9fba3"
+      },
+      {
+        "pk": "2026-08-29",
+        "updated_at": "2026-08-29",
+        "sha256": "4af7b676b4c2e5852310005c853505de848e16f047a929cb0d275256f6b166ec"
+      },
+      {
+        "pk": "2026-07-21",
+        "updated_at": "2026-07-21",
+        "sha256": "2e47f5cecfe3a75fd90a2f9c610f3709aac496479617ee31f86087af3121d6a6"
+      },
+      {
+        "pk": "2026-08-30",
+        "updated_at": "2026-08-30",
+        "sha256": "ef3f6dce2505c4c9b6dc112120c391795a88b965a6428c2c5d8662117ffd3b96"
+      },
+      {
+        "pk": "2026-09-06",
+        "updated_at": "2026-09-06",
+        "sha256": "89156c9b97cbc169e837648aa7f5c03ca380bb525572b6f622ea8beca357c45a"
+      },
+      {
+        "pk": "2026-08-13",
+        "updated_at": "2026-08-13",
+        "sha256": "c5aeae0d298bdc1265d19bc43ea3c464756cdb64c24efc4d47ba6e5cf2a2499d"
+      },
+      {
+        "pk": "2026-09-10",
+        "updated_at": "2026-09-10",
+        "sha256": "108d7d0d1939b7b1f9d598ca14ac7828d2b70607a3d60d1059af1b1b8f242ff0"
+      },
+      {
+        "pk": "2026-07-23",
+        "updated_at": "2026-07-23",
+        "sha256": "755bb2f58cda60af7ccc9ebc1277ff3556fd066247a0ef1a4ab03aef62471215"
+      },
+      {
+        "pk": "2026-07-25",
+        "updated_at": "2026-07-25",
+        "sha256": "eae3fd6aa9fcb638ae733f3e81f1f5bf69012677dd8b43e0f0bc238e1aa57c94"
+      },
+      {
+        "pk": "2026-08-14",
+        "updated_at": "2026-08-14",
+        "sha256": "204a98e78c80017d47756efa86903bb79036bba1fc5b233a4c2729964d9b89c8"
+      },
+      {
+        "pk": "2026-08-20",
+        "updated_at": "2026-08-20",
+        "sha256": "22a58185e4461271c9d5f9885a60a2809596943954ac4b684994f940d8932c38"
+      },
+      {
+        "pk": "2026-07-27",
+        "updated_at": "2026-07-27",
+        "sha256": "ac79a3155ea18101d98ff522d77988633237a3ccc065efe5f1d454102bbbf9c8"
+      },
+      {
+        "pk": "2026-08-26",
+        "updated_at": "2026-08-26",
+        "sha256": "6e1367472e43515c405424ba779f8b23653dce939fa99ea655059d2aa69339d5"
+      },
+      {
+        "pk": "2026-07-28",
+        "updated_at": "2026-07-28",
+        "sha256": "a3bced8909b8f63b321348d7a177c5205e8e04037a7d356a9f818047f4a792d1"
+      },
+      {
+        "pk": "2026-07-31",
+        "updated_at": "2026-07-31",
+        "sha256": "6400055d21a4a060253945114cca44b0a145a9f4e05b68d1e9d7eff3554ee675"
+      },
+      {
+        "pk": "2026-08-03",
+        "updated_at": "2026-08-03",
+        "sha256": "1b7848000f9a3952e0a60692ff80b494e30cb66210d9454ea6de093042a8d390"
+      },
+      {
+        "pk": "2026-08-05",
+        "updated_at": "2026-08-05",
+        "sha256": "203da9a0a54adc536100d6f09d3f5099f214fe9d1434ec1e608d857d578e00d1"
+      },
+      {
+        "pk": "2026-08-07",
+        "updated_at": "2026-08-07",
+        "sha256": "0ff718e47359981fd36eea26d2a3a2c1b395a90b5f0f87b9652365230281bdd6"
+      },
+      {
+        "pk": "2026-08-27",
+        "updated_at": "2026-08-27",
+        "sha256": "b74a51ccf8c246a1defffdc6d586944942f3971ee6e79ff72bb767544c55ac13"
+      }
+    ],
+    "app_settings": [
+      {
+        "pk": "1",
+        "updated_at": "2026-07-23 21:56:54.492+00",
+        "sha256": "dbf6ae51f616dac0ee4d4c7f64f5655a96331250ba83b66dbc8222a59a7ac2c5"
+      }
+    ],
+    "categories": [
+      {
+        "pk": "da67f28f-89ee-4d3f-af00-520d84d49c99",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "4706b7e298a3b6a45c063d43078d22d43aee0ece4c947f91354872337e401f14"
+      },
+      {
+        "pk": "701f444c-4a0d-494e-a6b3-4388b3fde9be",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "48883d2c60b79765e8998c5de42201bd23e4342a4a7fff42d215daa47bba992b"
+      },
+      {
+        "pk": "17b3e176-6f7e-4856-8e39-9439516ba640",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "68e49c961014a14008798bc914117ccdde423843cb7343f56a908f5e5373abf6"
+      },
+      {
+        "pk": "9644c3e7-09b6-4f2d-930f-b7253f3ffa6b",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "6d36b7e1da2ca64adbb89f4a244472f14ee5f6dccf68c8ecfe7bc930d9b6d073"
+      },
+      {
+        "pk": "7b649a61-acfc-4279-b28d-839de62fe5a7",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "58c133dda5608d6fdea5a44466142476bfe94f48646bf3302a309cfe85fa8d8a"
+      },
+      {
+        "pk": "2bd9e936-4c81-4f27-9c2c-e4ec7c812d73",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "8d958972cdb03c199296a13321b507de45f1b8ab2f837fd943483ce4d5fe8718"
+      },
+      {
+        "pk": "85f2a161-07c3-46ba-b481-1e29d2bd9a4a",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "710bfacb0fe2bfcbc3b724a415f3aeb35508c8c10ae5f85a182cd922f6faed23"
+      },
+      {
+        "pk": "727509e6-13be-400d-8b74-e35cd4580327",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "142245106eccf8ebbd74d5985cade6ff35f1c6549310480c48d084cf7844f1cc"
+      },
+      {
+        "pk": "e20a4ea7-0a4b-4b41-828b-9d959f983249",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "4854b19e428684dbbb62bd11c45b2997342bfc72581077a86559f61a94cb5edd"
+      },
+      {
+        "pk": "9e52458f-173d-4cb7-b0b5-231dce672c24",
+        "updated_at": "2026-07-19 05:29:29.721084+00",
+        "sha256": "39be752e034f2359ccf833d0b890f7f88c7902a0090989fd4e250b9440b19714"
+      },
+      {
+        "pk": "4d9205ea-7862-4acd-8c33-053640ade783",
+        "updated_at": "2026-07-21 15:14:05.832011+00",
+        "sha256": "69f81708bac293d853267813a5e14012350fa4a69bb88306bf035264e3adde85"
+      },
+      {
+        "pk": "e94f411b-a674-4620-91ea-97351815b817",
+        "updated_at": "2026-07-27 18:36:09.982367+00",
+        "sha256": "9573ebe0ceac2142a47cdea0c0e9b06b322dbebcb1cf5fb950b929236267448a"
+      },
+      {
+        "pk": "4d4a14f3-0838-469a-a12c-90c684d43c72",
+        "updated_at": "2026-08-05 17:52:42.385094+00",
+        "sha256": "1c371b3b2b7004368ca81bb90db22716173e7f44befb841afdcf640cadf70069"
+      }
+    ],
+    "client_events": [],
+    "comments": [
+      {
+        "pk": "39b58a01-443d-49ce-934b-79c383e51a54",
+        "updated_at": "2026-07-27 17:21:13.550998+00",
+        "sha256": "178135a578821ac763aac99696c535b043c0ed5c474284e12aa6d897c579b085"
+      },
+      {
+        "pk": "991d7827-f8cd-4da7-8ae3-3a82b21bf20c",
+        "updated_at": "2026-07-27 20:06:56.753662+00",
+        "sha256": "1b5ffbc245d68e2e8f603e8dd1eadfe725c4f6940294abb44f84de1cbc50584e"
+      },
+      {
+        "pk": "9412c3fc-cbb6-4140-bf83-d7196d65ff78",
+        "updated_at": "2026-09-10 20:25:44.882703+00",
+        "sha256": "ff5e76afd861f1b13baceb24678f4813150342b4e51ca44e7c0bf07066c0feec"
+      }
+    ],
+    "cook_logs": [
+      {
+        "pk": "a379cafb-65c3-42da-b267-c9623b3a2080",
+        "updated_at": "2026-08-10 18:23:32.706389+00",
+        "sha256": "885ed9973c850ddc5d8fa6ecd0544d1590e2287ae3aa3418191f30ce8582d405"
+      }
+    ],
+    "favorites": [],
+    "profiles": [
+      {
+        "pk": "f9f5e1d8-1c76-4fb2-b36f-c97c0d26af58",
+        "updated_at": "2026-07-27 17:26:34.125152+00",
+        "sha256": "360cfe24d46ecf4d8c5145038d6b8963a003a6281f999715d37d99ddd8e77272"
+      },
+      {
+        "pk": "98811242-44db-403e-9231-5cca41455e2d",
+        "updated_at": "2026-07-21 13:41:06.991218+00",
+        "sha256": "6ba119257cfc68da4066ca431da8f32315e97991dcbebd3b4a266a1b04a441bd"
+      },
+      {
+        "pk": "3a8ad0ef-3528-4530-955e-876f551640b3",
+        "updated_at": "2026-07-19 17:41:40.689946+00",
+        "sha256": "7e7bc203bdc969ffd6a9dbab8f8a32bd658151ee2ec24180e2a5e4adf4041807"
+      },
+      {
+        "pk": "3332d3b6-7d91-4391-a668-de2e14adaffb",
+        "updated_at": "2026-07-19 16:57:12.903246+00",
+        "sha256": "5cf23963b4e748482a96dfee3cb9c6440baa16ec08517e9ab80314772c83c4c4"
+      }
+    ],
+    "ratings": [],
+    "recipe_categories": [
+      {
+        "pk": "5c381247-8b14-4529-90f3-c5426761072d",
+        "updated_at": null,
+        "sha256": "55c3ec0d4010bc5cea5ee4386a822d355f45f719b39570555dbf7c4d8d70449e"
+      },
+      {
+        "pk": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "updated_at": null,
+        "sha256": "918d5436285868637004b069d8a074f2d6d99c13eba3987b47161790b789b162"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": null,
+        "sha256": "550b41a46dc75257b9e1de88a2ad60298b0e406b214ef94ac903294b65420187"
+      },
+      {
+        "pk": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "updated_at": null,
+        "sha256": "49c5a039055c0e5c269e9f65aec889d694fc5dbe62aa45300ed69ecb348f97b1"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": null,
+        "sha256": "5d36074f68d7c1d2bb17aaa3351d985a0d106642e347326cd499637bdeb955a5"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": null,
+        "sha256": "30c7bf5a71f37413d3ac0bcfdd6eefdeb459a87cb474cfefe32af80575b05719"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": null,
+        "sha256": "afe29492deb6b6d25cf5f616e5bac35a449821d8a78d31622d3b025489e62588"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": null,
+        "sha256": "1ba61b5582802f9b6fe83a15f9469497b4271d5aafc06d221c5d1c983be780e2"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": null,
+        "sha256": "033dd37b1eb08d179663fc438b4302e1db4624f2cf3ccb5ba8962406baa62723"
+      }
+    ],
+    "recipe_photos": [
+      {
+        "pk": "2d94a3e9-813a-4d90-ac79-ea2d8322b9db",
+        "updated_at": "2026-08-27 20:15:30.238301+00",
+        "sha256": "67f6a7b00a1dd133887b3f67764a974d9075dd36f9f851c3aa4b17586f15098f"
+      },
+      {
+        "pk": "9b5d151f-05b2-4693-9fdd-45f41e8c5a6a",
+        "updated_at": "2026-08-27 20:17:42.734609+00",
+        "sha256": "af09365bb4bc8ba05afe9f0a3d959971ec611d1fce14571dc3f50d43164e2c9c"
+      },
+      {
+        "pk": "1418cdcb-aa47-48cb-89be-efd463f0ae56",
+        "updated_at": "2026-08-27 20:19:55.395155+00",
+        "sha256": "73745ab49ddb8d728ee6d8e8a85d4605ebe0ca3c950c6fcbf2879d385b04efbe"
+      },
+      {
+        "pk": "88ebe5a3-4dd4-4c67-bcb1-14ca39e63a51",
+        "updated_at": "2026-08-27 21:06:42.549868+00",
+        "sha256": "848e29351ed0f1b42bd0beb03469ae747525b46d9665e42c14a03426242ab414"
+      },
+      {
+        "pk": "8091a492-0178-475c-abde-180da9a569ea",
+        "updated_at": "2026-07-27 16:33:39.514865+00",
+        "sha256": "dbf59c0ece955ca8beef52b438218fd830b04c2fc16a554e268f6add607d6211"
+      },
+      {
+        "pk": "6e6ef9d5-b2ea-4dce-a9c3-5b19ed064c7c",
+        "updated_at": "2026-07-27 16:33:39.514865+00",
+        "sha256": "990b850b6032814b2b942d23b675f5ca8485cabfdb45d2509303febbadc229c1"
+      },
+      {
+        "pk": "cf38a4e5-fdbd-4171-9465-cf1424ed9e3a",
+        "updated_at": "2026-07-27 16:33:39.514865+00",
+        "sha256": "46eb2cc75b55b0937f24f1945784e25ee793bbcd7810164f55513c7f1388d239"
+      },
+      {
+        "pk": "4170d086-e56c-468a-a80e-9f2a1925ef04",
+        "updated_at": "2026-07-27 18:39:44.17326+00",
+        "sha256": "43823debd62c60184016f629dba56e96c954131f41ac6965e162d5bd5e590dff"
+      },
+      {
+        "pk": "6f38107e-45ed-4b29-bdd6-bcb832fc7beb",
+        "updated_at": "2026-07-27 18:47:56.64205+00",
+        "sha256": "7bad87c98c842a54ce18170f97b322c4828a6fae81d0f8015416c955ad4c962a"
+      },
+      {
+        "pk": "4b290520-253a-4dc6-a564-3890e5fb2f85",
+        "updated_at": "2026-07-31 11:04:13.20467+00",
+        "sha256": "a5caa7e8bfe399d9d7d6c1245ac0c44b58b25a4ce675f1291eabc2c134bd8b2b"
+      },
+      {
+        "pk": "8fc1f728-5cb0-4c7f-b9e8-ec899055b2ce",
+        "updated_at": "2026-08-05 17:52:47.442077+00",
+        "sha256": "767cd9689b126b41ada4b2ecf01e1b8e191b146f139dc58fa6bd9ca4928c67db"
+      },
+      {
+        "pk": "63783c2e-7408-423c-81ce-7b13167cedf2",
+        "updated_at": "2026-08-03 21:01:48.720224+00",
+        "sha256": "4a49bf60fdb58e2215d5bc71b5e4b2a7fa9248b7c97eecbba1ed8464e676e8e9"
+      },
+      {
+        "pk": "8aad3fff-ece0-4b1c-a011-2d716f09df64",
+        "updated_at": "2026-08-03 21:23:27.31503+00",
+        "sha256": "7eebc0fac05694f692df8538dc2d287fa43e9c0913bd61a291e034cd6d199d2a"
+      },
+      {
+        "pk": "41595407-1f16-48b3-9414-93f3996efdc0",
+        "updated_at": "2026-08-03 21:23:27.31503+00",
+        "sha256": "5655b1d64d2082f4347a5ef212c8247f4b88fdea3644ffda53002888c3b3df86"
+      },
+      {
+        "pk": "c84cf757-be3f-4dba-8a4e-e4cfe85949cf",
+        "updated_at": "2026-08-07 11:37:39.528774+00",
+        "sha256": "852ab4136b85f3e61a1ac2f3d3716d13ab3c29d24ec3d709023fa17d5c93ea8a"
+      },
+      {
+        "pk": "000e309b-6b25-4f22-9fdd-d4a4d5a27024",
+        "updated_at": "2026-08-07 11:45:48.920668+00",
+        "sha256": "717d60c3b60985a557ba7a4afac19ab14868ccf1a992ce85a06ae670f33e359a"
+      },
+      {
+        "pk": "88b7414c-a48f-429b-acd2-f0b5869f219e",
+        "updated_at": "2026-08-07 11:45:54.172314+00",
+        "sha256": "c4a181e17bacd6512b53d5e2f3e5e2657a8c8a6598bf126528e8ed053bb55e59"
+      },
+      {
+        "pk": "019e4610-3825-4077-8491-139fdbc6dbae",
+        "updated_at": "2026-08-07 11:46:01.45053+00",
+        "sha256": "947e5660ce9387886266008c674f35f9e387f8b4742ecd22bb454cec036932df"
+      },
+      {
+        "pk": "ef8d7933-5f11-4f92-b0f2-45b07f236a92",
+        "updated_at": "2026-08-07 11:49:52.278764+00",
+        "sha256": "b3bbeb789a38309d1272df199c890fea26e04653e87db3bb6b4ab93bc47ff212"
+      },
+      {
+        "pk": "3b2ed438-485e-44b8-91a5-fb9d5568f8f2",
+        "updated_at": "2026-08-13 15:15:50.333849+00",
+        "sha256": "b25d3602e3a5a225a18999d98e4cdc001947fa003a4d3cd206c1317d1018d5fa"
+      },
+      {
+        "pk": "93269db0-298f-4854-9ddb-2fb5fd2a896c",
+        "updated_at": "2026-08-13 18:28:42.940845+00",
+        "sha256": "4b25f64f3eb7cf7ecedfba538629a16c6121e1118b4527998e27722677c32c73"
+      },
+      {
+        "pk": "2914b782-21d1-4ec6-8b4f-8f5885ad90a9",
+        "updated_at": "2026-08-26 18:59:25.558456+00",
+        "sha256": "bfae1be68fac7d1c05240d3272e98d407fb7b1a896803e4271fb5c0e6387d04e"
+      },
+      {
+        "pk": "48f54f10-5cd8-4b08-8fb7-d2fb12dcc939",
+        "updated_at": "2026-08-26 18:59:25.558456+00",
+        "sha256": "1f10a4727aa08595130e227cc0a31fdb20b0e4b40e48089c565739c574a79091"
+      },
+      {
+        "pk": "43d38dd1-3d8c-4cce-8bb6-937818271a63",
+        "updated_at": "2026-08-26 18:59:25.558456+00",
+        "sha256": "6bdcf0834f335a396e43b7517c0a636d41e219c77634d348597d51b0e1c236a2"
+      },
+      {
+        "pk": "dc3bd6f3-1879-4532-956b-c4df9b7840a1",
+        "updated_at": "2026-08-27 04:24:20.353485+00",
+        "sha256": "a58c1be14fb4a34c08bd7693b28c43b80267b290ee2c7eac161f6c9b41584918"
+      },
+      {
+        "pk": "645e99e4-d608-4f4b-bc24-4e0a871d10d7",
+        "updated_at": "2026-08-27 04:24:20.353485+00",
+        "sha256": "953ab2cbd515545358a05ca6c544a2fdedeccf310f65b6009e883e18f04800b6"
+      },
+      {
+        "pk": "b18d5b39-9df2-4bfc-beb7-621a17b9bdbc",
+        "updated_at": "2026-08-27 04:24:20.353485+00",
+        "sha256": "eda52da84b40351a0b92115a7bbfc072ba400101d89467347d89123fc2dbd7cc"
+      },
+      {
+        "pk": "e843dcac-1c24-4e25-b70a-11b5e75688e6",
+        "updated_at": "2026-08-27 12:48:04.078497+00",
+        "sha256": "1ec6347bee5e285d13f38a580c9c6b0077f34cbc439d357dbd9d4b3b2e19a998"
+      },
+      {
+        "pk": "578ea7e4-39f7-4390-bc1a-c053830c9c4e",
+        "updated_at": "2026-09-06 22:06:17.342587+00",
+        "sha256": "8b46abe953a13dec72b89d129e1a244b869db12c0f1590a7f2e0948b51bd03f3"
+      }
+    ],
+    "recipe_tags": [
+      {
+        "pk": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "updated_at": null,
+        "sha256": "1cc2f172d4fc22bd72159e7dbb42a5edd701a9e39a636d2227df7fee0e1e24fc"
+      },
+      {
+        "pk": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "updated_at": null,
+        "sha256": "d19b5bdf07de85732e61b57cb79e166a316a463dd25c35e17ffbc8019ce38b6b"
+      },
+      {
+        "pk": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "updated_at": null,
+        "sha256": "d5cbc42717121dd4c84f719e8489dfe6de7afd16d814b2d6180c4e80cb479121"
+      },
+      {
+        "pk": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "updated_at": null,
+        "sha256": "01f085c288e27eef07157fea8455c9486d2fa35fdb2423ba2270603ae85a024a"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": null,
+        "sha256": "777bc572b0e5faa278d8548be3b4ca16b9aee2d8b8e793e9be73c5918a712aff"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": null,
+        "sha256": "ac2c17a4b12ebf1bdf017d1bc57740d3597778b67e6a164137ac28dadc3147a0"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": null,
+        "sha256": "c9015b0284dfb0592ff9edff5480ffeaa7bfd84a711117fdfcce5f268b0d82c4"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": null,
+        "sha256": "67f9e6b2e9bf395c0aa060453b88448070784902bc506b0edbdb8d62b47e7884"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": null,
+        "sha256": "8ea07dbf74114c0fcb47006afae3e9452b5d4550b3d3196e30f13c876a0fe35e"
+      },
+      {
+        "pk": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "updated_at": null,
+        "sha256": "51c5bc9a8e60cb5fd8352109b1d2e7a359bd010b0dd37c9efad491bc0a37fb6c"
+      },
+      {
+        "pk": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "updated_at": null,
+        "sha256": "3d89c75411a0b337256150d379a148213f5665f72ae677ff74f710fa19427657"
+      },
+      {
+        "pk": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "updated_at": null,
+        "sha256": "6322b3595c8b21cd427b74e08902ad3459862e92701f13dfd9fedea6a5a149c7"
+      },
+      {
+        "pk": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "updated_at": null,
+        "sha256": "9a64afac8a6c31c0e6a50e0aeb5e286bbb6d71790cce415b5d75d39dbff0105c"
+      },
+      {
+        "pk": "66353710-f855-431c-9981-b65debcfc28f",
+        "updated_at": null,
+        "sha256": "9a5d4738f06d2cc0590ac2e5b297cde1c184b86e62a4154fb8b6c8b8c3ee97bb"
+      },
+      {
+        "pk": "66353710-f855-431c-9981-b65debcfc28f",
+        "updated_at": null,
+        "sha256": "f2e44160f1175884cd007b504d873c6f2278ba7fb7279d60be0c36df91fb03dd"
+      },
+      {
+        "pk": "66353710-f855-431c-9981-b65debcfc28f",
+        "updated_at": null,
+        "sha256": "85f4ec89bdfb6099ca96dba33b6ad19f3653de889e49565eee12f907c937fe6c"
+      },
+      {
+        "pk": "66353710-f855-431c-9981-b65debcfc28f",
+        "updated_at": null,
+        "sha256": "1c6180651e9ec19b9e5ff7b15c776e0c8022087003f9eab1639f9d463a1e2f98"
+      },
+      {
+        "pk": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "updated_at": null,
+        "sha256": "c7c62d0dd62599ec4ddfd56d9068367fd27599e818637db852fe055fb719ca76"
+      },
+      {
+        "pk": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "updated_at": null,
+        "sha256": "484c2e8a07e5a7b47c197c6fd5721f378e93e17cfcd1f714f0e267a74c9a6f0f"
+      },
+      {
+        "pk": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "updated_at": null,
+        "sha256": "e4ff4d2711c7bd19efe13c65dbb9ad5e0d515699a1c0a91398eab5c732fe3170"
+      },
+      {
+        "pk": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "updated_at": null,
+        "sha256": "515f64f17d046ebee5c135390a2c5d55eb2fb5180bf15aec4ec1f8ec6f66eede"
+      },
+      {
+        "pk": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "updated_at": null,
+        "sha256": "e25ebc078dd81d0a5a7c5ceb48d65b9c40e1415e29a478c3a6f31aa7dfb2aa7d"
+      },
+      {
+        "pk": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "updated_at": null,
+        "sha256": "05885a954fb70bb83b737c2ba4d8b31ef059b19c4611b8a967ccbce723ce9e5e"
+      },
+      {
+        "pk": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "updated_at": null,
+        "sha256": "121431933c331bbcb46489ebee21721b3120061a0f23aa62ea1e1155437dfbef"
+      },
+      {
+        "pk": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "updated_at": null,
+        "sha256": "a9b43949de565a8cf824ad202212393b450b34511dbbeb07f86aa2b9c214d836"
+      },
+      {
+        "pk": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "updated_at": null,
+        "sha256": "db01d052c4fa69bb8ce12e5318addf2d067db282bcb5b800a4e407149eaf4426"
+      },
+      {
+        "pk": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "updated_at": null,
+        "sha256": "24b4b2f45c627aa3fc18d76ae0a25e6db246c297f218f5189e0d19a7fa0c5d99"
+      },
+      {
+        "pk": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "updated_at": null,
+        "sha256": "42b5123da303339d270a79f15baab0375bdb1742ddb7f6287e86065396ed341f"
+      },
+      {
+        "pk": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "updated_at": null,
+        "sha256": "cf64e1c7166052e7a4e81bf8357ec1bf4c4107d0e6bf217324b9b7295a827375"
+      },
+      {
+        "pk": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "updated_at": null,
+        "sha256": "15592e57f2bec7d2ffb0edd3239b65d065044ac24ae8c4394c28f797b0abb6c4"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": null,
+        "sha256": "60a8097c4c0e646845a3f88cac14b228596fb27636669d8e8f5efd972366f6ca"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": null,
+        "sha256": "8ec52740387c158453c2ac7e5f2deb046154de7b24a3e3bf7057d119191a2dfb"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": null,
+        "sha256": "b7998adf1e648c92838e134919f4a6a937f38c42e5e6139f6d55462a9d854836"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": null,
+        "sha256": "4cfa1190df46238335e53dc7ee188d127c71977fca09235cd3781844e9e58a4b"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": null,
+        "sha256": "0ad823e43b12d936912bee2049ae061e6ac93c12a18901e449c43cf2584e74fe"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": null,
+        "sha256": "b0233a0e4de7bde2cee00b559e850f76017a9058c660e1ad171081837638272a"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": null,
+        "sha256": "06bc7af323871505b9b7eab724a7a8adf5913f8d55fdf120081b05c0652d60a8"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": null,
+        "sha256": "ab39ccec749e56ee01ba9fb4b6fa7845f72280c8057eb21c06ebed51f8a5dc96"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": null,
+        "sha256": "08b722a3e49f617f701d991e8985506a6e531b49c732b978b625013ce23f3518"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": null,
+        "sha256": "d12904c7c64084a57a1cb535defaf86e7f946a644bd04b56fdbc2c0befc15651"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": null,
+        "sha256": "bc61f3b946880156b6e984edea6068cb6ac5f9fd53c3a0fb218156687afc75fe"
+      },
+      {
+        "pk": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "updated_at": null,
+        "sha256": "8a385453e7113d3d3b0c707aac40a4d9ee200a1e95a0f0dae5433eecfbe80e35"
+      },
+      {
+        "pk": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "updated_at": null,
+        "sha256": "18ab9ca116d18d53e6af9227485ffe1d7dc712585ff4f85bb68e9063e2cccf52"
+      },
+      {
+        "pk": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "updated_at": null,
+        "sha256": "064bb99d00aa9493bca152b3c9e7d06b44732635f1dd3ef7ab10313745800b84"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": null,
+        "sha256": "aeec726684561be644ad44907a82e2a4201b2ff6c0afffb11815b8e2f2ce3d12"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": null,
+        "sha256": "2cae0e64864d28309fbdd4e7750e1e50f659d8f0358fd5b1e62fcefcd302c76c"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": null,
+        "sha256": "f6ae3edc4727d4ede5915f8c0d1962827d6a89845fc7692eec76a6bd7e9f34f9"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": null,
+        "sha256": "e05b32e0b80ad9f9f03bf7d6b487f29bc7505f91e3e6174055472795972e6949"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": null,
+        "sha256": "1f2856a577ceced88ee41b98d14f2a4fd058aac705153baae2f4de2c3487726c"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": null,
+        "sha256": "99e43337cdef2a36b9e384af06c06b581136189bfa9fdba31d2fad2c148762d1"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": null,
+        "sha256": "54057714edcba8c804183619594f2d3eeccb53bb7c91cb0da54f9a254719f818"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": null,
+        "sha256": "e438eca43e8f622fb82334c508741ac7f67d4908da6b704d3b428cfa0e278651"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": null,
+        "sha256": "622005fef8ebd26e6f9a79d89cf11f75bd54092397a530fe37428c3978e692ef"
+      },
+      {
+        "pk": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "updated_at": null,
+        "sha256": "9f59f3d060d40bdfe901d51f5901c38341d96ab9531c6f08697a9a1d1f108dd4"
+      },
+      {
+        "pk": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "updated_at": null,
+        "sha256": "e5f6de6dfd770d677004acfb8659f8ece4b6e39c903766708d78d5e2bf4c583b"
+      },
+      {
+        "pk": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "updated_at": null,
+        "sha256": "73a306d5a7fde40fb4e82105a65cd1865326aea54b5048fb473bcac2847ef1d7"
+      },
+      {
+        "pk": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "updated_at": null,
+        "sha256": "07849af6bf7f278d2dc086b1be2d04c2f36ec31332ab4e604cb8be61e7ef4e1f"
+      }
+    ],
+    "recipe_title_i18n": [
+      {
+        "pk": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "updated_at": "2026-08-07 05:19:50.350474+00",
+        "sha256": "6d6970d056e84ed535cd10ac944343152f075936c6e9f8b32ddfe816b0a24f77"
+      },
+      {
+        "pk": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "updated_at": "2026-08-07 05:19:50.350474+00",
+        "sha256": "0e84156009059f089beba04afb768d74b43de7f1bfbb149d714e901becf77f7f"
+      },
+      {
+        "pk": "5c381247-8b14-4529-90f3-c5426761072d",
+        "updated_at": "2026-08-07 05:19:50.350474+00",
+        "sha256": "616c9b7c9c7cdf6c08e2474fd112dab8cbe7aa61c53720dc1b5550dd082a0a81"
+      },
+      {
+        "pk": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "updated_at": "2026-08-13 15:14:34.388134+00",
+        "sha256": "562632d947d167bff0400f7fc3ca874a7e9e768b5d63d854cddce8924540f334"
+      },
+      {
+        "pk": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "updated_at": "2026-08-13 15:14:34.388134+00",
+        "sha256": "54f26e92453f1157578769cc610829a49628eabe782ca86c487c29be19dc1de3"
+      },
+      {
+        "pk": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "updated_at": "2026-08-13 15:14:34.388134+00",
+        "sha256": "d7fb5912984765e28f78a4033a5ab957b0b9d73b3ac1059bbb3b03ec4b206665"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": "2026-08-13 18:50:58.517344+00",
+        "sha256": "56abdb58f42214ece44eadc79c575669285cb735bfdd829c4bf00c5489920aa4"
+      },
+      {
+        "pk": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "updated_at": "2026-08-27 04:22:18.101311+00",
+        "sha256": "60a295b2fcc2f1d30484ea7043778c468d18eeb0c846d1b47abbd5e32e3a1137"
+      },
+      {
+        "pk": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "updated_at": "2026-08-27 15:17:14.274234+00",
+        "sha256": "f3171d6756993b20719408a601e211770e436c2e3acfc3f5495b1f84aa27c0c4"
+      },
+      {
+        "pk": "66353710-f855-431c-9981-b65debcfc28f",
+        "updated_at": "2026-08-27 20:14:17.600009+00",
+        "sha256": "b815671d00f308bb1184adc6e334c16db3f14077068a3931f45b41c298e94370"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": "2026-08-27 20:16:23.045258+00",
+        "sha256": "4ffeb95ac735920c40848459b92b42a5ec144ee557496f35a8588b8cc9e25914"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": "2026-08-27 20:17:52.878126+00",
+        "sha256": "b2b21e79b3304a0efd898e4e8788113b0241842ea9c1b2b98e2240cce51c705f"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": "2026-08-27 20:51:08.164266+00",
+        "sha256": "570b90b01ded419335ba66c1d524e0ad7907d2b37621462c82a21e9d2ffb4beb"
+      },
+      {
+        "pk": "06b4158f-195e-451c-a3f0-72949a530d6c",
+        "updated_at": "2026-08-27 20:49:19.727563+00",
+        "sha256": "193bcc52fd881ebcec71fb88b92da4e607284dcfed1a61be428783e2dfd84612"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": "2026-08-27 21:06:42.300067+00",
+        "sha256": "3e927e56a3acd83201f48af5085196a8a3dcbaa5e84c1bae7a4370a2e754c258"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": "2026-08-27 21:06:59.099612+00",
+        "sha256": "430c4938e2b3280295e95fe65988662d9da600921e25e4579f2cf7f3b67023f1"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": "2026-08-28 08:07:07.997582+00",
+        "sha256": "ba131a8e81e0b97fdef0a858be9a574271b1c9bce79a7a11e9a7485a4a4780b4"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": "2026-09-06 22:06:17.592924+00",
+        "sha256": "eecf67cf8a4c54edc59cda95fdffdd444333ace4ff5dd777974256ad1644d17b"
+      },
+      {
+        "pk": "89fabf85-16c3-4eac-bbfc-300d7f1eeec1",
+        "updated_at": "2026-09-10 20:00:57.105277+00",
+        "sha256": "c00d9cc0e6c2c7ff73c0633514d1ae9820d2596ceedf97eee3dec07d7bd897f5"
+      },
+      {
+        "pk": "e11eac8f-e315-47d1-b8b9-f1ef44d2c167",
+        "updated_at": "2026-09-10 20:02:20.710323+00",
+        "sha256": "f18c9328bf8e1e56b742e56e8e21bfddd9a17898470e0e1af6c194fe141cba03"
+      }
+    ],
+    "recipe_translations": [
+      {
+        "pk": "e11eac8f-e315-47d1-b8b9-f1ef44d2c167",
+        "updated_at": "2026-09-10 20:02:20.648339+00",
+        "sha256": "423a8c3517b568eca9ffd4eb251d67cc3d9c372792f22ec3fa02eead070d9e52"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": "2026-09-06 22:06:17.568154+00",
+        "sha256": "2be171998f05130ac6082b570328eda4cd42886b51c694a1d70dde3ec5f0e9e7"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": "2026-08-27 20:19:35.687788+00",
+        "sha256": "b71ccf00ddf656cc07430db7b6d21da0fce6b6f07fba27d630442a91f149eb80"
+      },
+      {
+        "pk": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "updated_at": "2026-08-27 15:28:52.481817+00",
+        "sha256": "e4db7ed8dbd298f209eaebe8d183cf26e069946b5205d70406c0160d1496fa18"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": "2026-08-27 20:15:33.918333+00",
+        "sha256": "715055e1550524e4498af21a4dfdf3580443bd0257702b0e5003041fc9825a75"
+      },
+      {
+        "pk": "06b4158f-195e-451c-a3f0-72949a530d6c",
+        "updated_at": "2026-08-27 20:49:19.686639+00",
+        "sha256": "4e04e62eb38fe8f8066b5a69914801ea56aab630df3ba65b329e7c9274ccb34f"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": "2026-08-27 21:06:42.274443+00",
+        "sha256": "d3404e6b0e90dbcfb1e3ec914ce9adfcde18915652487f450ff7b3c429ed117c"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": "2026-08-27 20:54:31.816838+00",
+        "sha256": "7642616f56d3c84af74c0865774ce516f166693c49a56a78366840b96df85496"
+      },
+      {
+        "pk": "66353710-f855-431c-9981-b65debcfc28f",
+        "updated_at": "2026-08-29 17:44:04.36427+00",
+        "sha256": "7d16df185792ff777f59699ffd2a93b6ff3c651d5097548be4ff6eb17f56cb9b"
+      },
+      {
+        "pk": "89fabf85-16c3-4eac-bbfc-300d7f1eeec1",
+        "updated_at": "2026-09-10 20:00:57.033263+00",
+        "sha256": "be2e4929e6b5fdb26d14b0430042500bbb5593828215fe0a16bcc6a611ea10dd"
+      }
+    ],
+    "recipes": [
+      {
+        "pk": "7259c386-48b1-49a7-836f-77a8a3f508f4",
+        "updated_at": "2026-07-27 16:33:35.147524+00",
+        "sha256": "19fb753a2fdc29c94976e3f88d47cfc88b01a016e582bd97eb8569a79bf0a018"
+      },
+      {
+        "pk": "5c381247-8b14-4529-90f3-c5426761072d",
+        "updated_at": "2026-07-27 18:47:51.418926+00",
+        "sha256": "fe02a5db9a278ba809bb5b670953ecb1987e50df4daba3e4912c9e7f75b20aea"
+      },
+      {
+        "pk": "80a61891-4463-4930-8475-64ef7c7e2ae5",
+        "updated_at": "2026-07-31 11:04:11.240951+00",
+        "sha256": "079f25e03aae8cc9343d531b6917e3d98ec4760b8294054cc805b0c0b5c1b491"
+      },
+      {
+        "pk": "cf58a5ab-6018-4773-a758-09e2e1344f2b",
+        "updated_at": "2026-08-03 21:23:25.58587+00",
+        "sha256": "7efc7e8aacf6e625530750a1a99e36c13d7c7a5833443ea8b1923617fbb88cf0"
+      },
+      {
+        "pk": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33",
+        "updated_at": "2026-08-13 15:15:48.599037+00",
+        "sha256": "e99e873e6e0914af177ce67bd44a40425ace16990c4d09a02604806fd5fc7711"
+      },
+      {
+        "pk": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad",
+        "updated_at": "2026-08-07 11:49:51.271938+00",
+        "sha256": "99c02978a79ab898da1a58e3413a44428f2249deb2562b630d07545ed06928d8"
+      },
+      {
+        "pk": "4d26f595-15de-43d6-b578-bbc668a1f172",
+        "updated_at": "2026-08-13 18:28:32.285593+00",
+        "sha256": "39a37c149f2920c2d7c73d51a2d6c5d5869f42b7efe6ec71787dcbfc312c6183"
+      },
+      {
+        "pk": "bebc571c-e04d-4837-91ee-152a10daf7b1",
+        "updated_at": "2026-08-26 18:59:13.809101+00",
+        "sha256": "9ab0fb3c3adf0c2e07a26e8b9d2f4ae7812ad42505c400e28a30e53a391aa4eb"
+      },
+      {
+        "pk": "66353710-f855-431c-9981-b65debcfc28f",
+        "updated_at": "2026-08-27 04:24:15.938427+00",
+        "sha256": "74986a92171740137fa090b68cfc95d31dc5e82de65f70766289af939be7ab54"
+      },
+      {
+        "pk": "e29e3e66-d92d-4ec1-ae50-510374728e98",
+        "updated_at": "2026-08-27 12:48:00.801941+00",
+        "sha256": "7c9e30894e2938630d4bf39e52ed4de91621e3d33bc0f3a3411729e1b5649f9b"
+      },
+      {
+        "pk": "9432139a-5d08-40d9-bd6d-37237403301a",
+        "updated_at": "2026-08-27 20:15:27.094024+00",
+        "sha256": "54bfcc01a90b3dd2a31ec0bf8ddec18ce4165ea818a7e5f574006f96cab9e173"
+      },
+      {
+        "pk": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c",
+        "updated_at": "2026-08-27 20:17:41.38299+00",
+        "sha256": "4f5745a8ba72be1cdab339efac3a9725d1746d79be035320149073bf9c49fe31"
+      },
+      {
+        "pk": "06b4158f-195e-451c-a3f0-72949a530d6c",
+        "updated_at": "2026-08-27 20:53:51.9804+00",
+        "sha256": "0c93204d7de508478b27c99e8258ffbbef30680ed15a586e1c879ce208b071e8"
+      },
+      {
+        "pk": "075e3be0-0a6e-47b9-a79d-e35c31aa8152",
+        "updated_at": "2026-08-27 21:06:55.503047+00",
+        "sha256": "93105ba1074bcdbf49c27f0f776895bdb5606a687ccbb492f99c15bb8eb7618f"
+      },
+      {
+        "pk": "ddfa8521-adb0-420f-8f4a-79d91fc676b7",
+        "updated_at": "2026-08-28 08:07:06.404625+00",
+        "sha256": "c5d234f50b77c9301775d53ede4e1a466c8bbda4e56b79415182f647d4eae9ae"
+      },
+      {
+        "pk": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd",
+        "updated_at": "2026-09-06 22:06:16.034697+00",
+        "sha256": "9fd0383cfa342e72ada765b3c97b35a17621b4693d4960259f299dff78cb0ad2"
+      },
+      {
+        "pk": "89fabf85-16c3-4eac-bbfc-300d7f1eeec1",
+        "updated_at": "2026-09-10 20:00:56.137642+00",
+        "sha256": "2c5c4a60e6f97d5f87d89a047fd4a58b0a84e48f791edeed773554043d9b9ca7"
+      },
+      {
+        "pk": "e11eac8f-e315-47d1-b8b9-f1ef44d2c167",
+        "updated_at": "2026-09-10 20:02:19.658101+00",
+        "sha256": "5ca14a9de0aefb4832423e257ada73c6268ee434dbf3a54994b559f3171c709b"
+      }
+    ],
+    "tags": [
+      {
+        "pk": "3c9213f1-4496-42a4-81b9-d5354a9b581f",
+        "updated_at": "2026-07-19 05:44:23.691802+00",
+        "sha256": "38862501a2ba193ecdc5ffca725fe98df5e72afdb73f9830a19f5b5ebe5f7ea5"
+      },
+      {
+        "pk": "4bdaa2bd-ecde-4f20-816d-588a9d95f23f",
+        "updated_at": "2026-07-19 05:44:23.898293+00",
+        "sha256": "a745b60e6e47c1b5fd9e4df875e66251447bdcadc7d5e6b2cc89d030ef003795"
+      },
+      {
+        "pk": "9cf71879-5113-4955-a3b1-f8b39ea970a2",
+        "updated_at": "2026-07-19 05:44:24.102366+00",
+        "sha256": "6aee45d45c43b5df01427f59b398db46428684268756ab45164796a1e27ce0a1"
+      },
+      {
+        "pk": "d5f8cbba-ea2c-487f-b8c3-8ddb6ce28591",
+        "updated_at": "2026-07-19 05:44:24.303078+00",
+        "sha256": "687e5fe5fbde6c71bdf8611f10dd1de352155f01ece2ff7480f76f166da88190"
+      },
+      {
+        "pk": "f92567d9-5ab4-4044-8d14-f2e30ef3c0ec",
+        "updated_at": "2026-07-21 03:52:45.863167+00",
+        "sha256": "30e9c1a6aa34c3b1e14f97a5ca89c9d3a16770088efed4e750bad916df93d963"
+      },
+      {
+        "pk": "242fb603-59f9-4185-bec9-85e0a42327ba",
+        "updated_at": "2026-07-21 03:52:45.907974+00",
+        "sha256": "dd7cd3ba4e5ffff89bf77cb1132c855f91cd8a37a29aba4ea29e209370068c1d"
+      },
+      {
+        "pk": "4a54ea3e-29e4-4bf8-9f08-3cdf437f4049",
+        "updated_at": "2026-07-21 03:52:45.948519+00",
+        "sha256": "105cb68f2f52f190db2d9ca7e1f9b103058772390bc30d2bf5f5eaafa33380cd"
+      },
+      {
+        "pk": "3e593191-bb54-40bc-9c7c-d316430e97a2",
+        "updated_at": "2026-07-23 22:10:34.566914+00",
+        "sha256": "6d1a24c948080d435e49be3e367e3b01971f495bd487209d51ff80ead740c7da"
+      },
+      {
+        "pk": "55742e4f-2256-414b-88af-946230820c7f",
+        "updated_at": "2026-07-23 22:10:34.622205+00",
+        "sha256": "54497de811bc257c7093787500fb6f1ac2c2f3c40f9f31bfe64931ee1ef81681"
+      },
+      {
+        "pk": "d0035180-5064-4d3b-9f83-22767d885126",
+        "updated_at": "2026-07-27 16:33:34.888336+00",
+        "sha256": "4b3b0d6e11e42c1a78a1c4aecc87a933e70903c1de8f2e4f53180cf92c8af626"
+      },
+      {
+        "pk": "eca8aec1-5d21-4492-9896-c247e4b182e2",
+        "updated_at": "2026-07-27 16:33:34.947089+00",
+        "sha256": "428d47294e71e33260d68f3b8d17019eb3e7257b5eb5df1923f1a7d551f79858"
+      },
+      {
+        "pk": "16f1a15c-2f65-4968-9304-e929a26e3bef",
+        "updated_at": "2026-07-27 16:33:35.003202+00",
+        "sha256": "696523e74c180acd4e72a0becbf5e407122eb5da5b17f6fa6e291187d5f26aca"
+      },
+      {
+        "pk": "d084553a-4647-4be0-9d11-fb9ef0863908",
+        "updated_at": "2026-07-27 16:33:35.048766+00",
+        "sha256": "e577cb697fc384d2f8a81c07de1f627585ce2fc94f7830b472e6a968afcab4e8"
+      },
+      {
+        "pk": "6bcba860-02d7-46dc-a614-9993c9995671",
+        "updated_at": "2026-07-27 16:33:35.096988+00",
+        "sha256": "706cd3cead0b2b6c85757685a9118728cfad1981437cb054156e0fd5cdfebac6"
+      },
+      {
+        "pk": "715c6050-e7cc-4a1e-94b4-24942d220bd1",
+        "updated_at": "2026-07-31 11:04:10.973841+00",
+        "sha256": "3aa174bf0a30ae12d58c15b7ff2b7b5640a7413cf7d7bc10ada1991c93374b4e"
+      },
+      {
+        "pk": "03e98015-dbce-449a-9b7f-1fa320b209ec",
+        "updated_at": "2026-07-31 11:04:11.081462+00",
+        "sha256": "407a28afdab75b1537cb7a13e017b3939fbae3c72ca80958caac903c24619b59"
+      },
+      {
+        "pk": "7825debc-6f41-4c42-bdef-7b33887bd453",
+        "updated_at": "2026-07-31 11:04:11.133071+00",
+        "sha256": "955b77fff0e80960012418159412b3a527cb1a20a14539a4e69261e5651f69de"
+      },
+      {
+        "pk": "c5a8fcbd-8f4a-47a8-b2c4-48771508db0c",
+        "updated_at": "2026-07-31 11:04:11.18351+00",
+        "sha256": "f3fd602784806e883b797160333868919de1e69c27ab75f6eb122e73cb217a0e"
+      },
+      {
+        "pk": "034679fe-e595-48be-a099-8c13157fa03a",
+        "updated_at": "2026-08-03 21:01:40.464647+00",
+        "sha256": "b6e81812e5f47a4aa24c8d951728edd3a9ed47a78354376c15649c4b2c78e2f7"
+      },
+      {
+        "pk": "67461786-a9ec-49ff-8b7c-cc864b452748",
+        "updated_at": "2026-08-03 21:01:40.524531+00",
+        "sha256": "e235005ad652865eb26a2ff3478c83d38fb7d32db38e3758951f92970c6b0a66"
+      },
+      {
+        "pk": "ec588133-27e1-4102-a43b-a2a965804c7e",
+        "updated_at": "2026-08-03 21:01:40.589615+00",
+        "sha256": "48e23e78577b27aa4c6d67f378c5d9621698fff0cd1563f625a9a251a495dd7e"
+      },
+      {
+        "pk": "fab05d7d-a7aa-4da2-8b7d-e3c95f8e37fe",
+        "updated_at": "2026-08-05 17:52:45.96141+00",
+        "sha256": "54100f8f7c7c9fb40315af4537cb40f1b5ee80937c0b2f4b008a6884f07b8247"
+      },
+      {
+        "pk": "81467fe1-0dc2-4f85-83d1-5d64d1f8c720",
+        "updated_at": "2026-08-05 17:52:46.01187+00",
+        "sha256": "1bad4e0eedb421ee3ce73d443ee1284aa81a0d1c09155c20b14bc4a645b65908"
+      },
+      {
+        "pk": "906dbd7b-1a54-4ac1-801b-b2852228264c",
+        "updated_at": "2026-08-05 17:52:46.053463+00",
+        "sha256": "aa3c5154a49c9bfc1705f1c91fc5787ab214b098cc4168921ed3c10ed0dc13bd"
+      },
+      {
+        "pk": "ef80ee19-4627-458a-b142-035d770db551",
+        "updated_at": "2026-08-05 17:52:46.092657+00",
+        "sha256": "0173a2ff70773149c3aea06573131a8b39a57cc8bacee6750cd61039941716d8"
+      },
+      {
+        "pk": "2bcd1d6e-3d1f-4f10-b99d-57dc254b4a7f",
+        "updated_at": "2026-08-07 11:33:02.363451+00",
+        "sha256": "78d933164e71e11b0fce5ed3e2ab5c60754752a2d6a2d87bc8e850910648fdb4"
+      },
+      {
+        "pk": "b68e41ab-46fb-4839-9647-32945552d738",
+        "updated_at": "2026-08-07 11:33:02.424916+00",
+        "sha256": "2c18b556f34e56ea7d7ad95932614e5a5f4be4341753995f5e630238d7e625c3"
+      },
+      {
+        "pk": "090f4ec4-d375-4951-a948-6d1bd7ffba90",
+        "updated_at": "2026-08-07 11:33:02.484806+00",
+        "sha256": "8801e8905b4a1bc60c31bd3717a3dcb00ed05eb0e4088efac4db1b6d19a4f6c6"
+      },
+      {
+        "pk": "b4d58074-087e-472a-afca-a0618051ead9",
+        "updated_at": "2026-08-07 11:33:02.545157+00",
+        "sha256": "ae29cfcd8a77a1301c1721611b83f4d94ec55381316cf437a183ffc8fda7ed60"
+      },
+      {
+        "pk": "30e57a8b-0c8b-4405-a57c-44309d50d2a4",
+        "updated_at": "2026-08-07 11:37:38.438385+00",
+        "sha256": "f4ae9a2afd1bda8bf61a2596ebf034d6285afa5bfee47e94b18016c84602a9e1"
+      },
+      {
+        "pk": "34803f73-7e05-4573-ae4a-9d403f23a0a1",
+        "updated_at": "2026-08-07 11:37:38.482649+00",
+        "sha256": "31463e97ba803171f06f87fc03de58f6cacd73fbda2ddfa7839f40dfa3bee94c"
+      },
+      {
+        "pk": "0be2d404-e2c0-4e29-93fc-0935b5e60fa0",
+        "updated_at": "2026-08-07 11:37:38.527732+00",
+        "sha256": "32fb8c5f5e40e257d24390a05ad05aae5becb1cd02acad26131e4427c1bc1061"
+      },
+      {
+        "pk": "45acefd1-72e5-4c71-8d4b-9f9078b4d182",
+        "updated_at": "2026-08-07 11:37:38.571414+00",
+        "sha256": "d9e8d7a06cbd5a583bafa797d239a47ab9f3a00d0194548b860c88b8b8a1868b"
+      },
+      {
+        "pk": "f04edc96-5173-4bd6-812e-b923abf9278e",
+        "updated_at": "2026-08-13 18:28:32.084807+00",
+        "sha256": "b344ed5a28cd4cdeda9d1f492a89f159075687fdb215ba55ee179749f283b24c"
+      },
+      {
+        "pk": "6d563868-1a8f-4c68-a473-0a643c1aa34c",
+        "updated_at": "2026-08-13 18:28:32.144067+00",
+        "sha256": "c108d3e49d2cd1ea8e558b4d846c8ad7c5ba3d13d11e9fdeed2272b1ccc82b36"
+      },
+      {
+        "pk": "2aeda951-8e80-4532-9ca9-90caff24d4da",
+        "updated_at": "2026-08-13 18:28:32.190646+00",
+        "sha256": "8dde02ba7d6d5939bf2020ec07f9aa8d9e410b0e902ca488c3b47457b3253b61"
+      },
+      {
+        "pk": "e9e60392-dc17-4306-acf6-0fd6eed58b0f",
+        "updated_at": "2026-08-26 18:59:13.522887+00",
+        "sha256": "35b0e3c2ab00b0134d4d5f073a8ed83acc1769053491a544b44f3943fcb5716b"
+      },
+      {
+        "pk": "906280e7-5c19-436f-90fe-6af804eddc22",
+        "updated_at": "2026-08-26 18:59:13.591568+00",
+        "sha256": "89f3b49e4b93c09ac522fef4f066599b644483fc9b54611d7900350cd2303c81"
+      },
+      {
+        "pk": "6072ceb8-de46-44f8-b697-e62df45ce9ca",
+        "updated_at": "2026-08-26 18:59:13.703029+00",
+        "sha256": "fef284ad4e2e56eefcc2f762aaa618e8eedfdee54921dd703ef937b2c59c4aa0"
+      },
+      {
+        "pk": "dde9eef0-6a4e-4656-b7f4-fd712a18274c",
+        "updated_at": "2026-08-27 04:24:15.732367+00",
+        "sha256": "6c104dc22728fe4345779d7f86049c9c620a9cff797a51a08f397cb5b99ac0ea"
+      },
+      {
+        "pk": "c05168ee-9958-4875-855a-302f60422f77",
+        "updated_at": "2026-08-27 04:24:15.79224+00",
+        "sha256": "3b06eb50bfdfb8b75b329ffaf5d3f6fc85285a5be723aa96fc786bf06f917d87"
+      },
+      {
+        "pk": "630dac04-c248-4564-9a89-190d5b0e5a55",
+        "updated_at": "2026-08-27 04:24:15.866764+00",
+        "sha256": "d21b29ff9fa90eac7f04e70dd3a262eeb5c5e2e57a6556f2d7bcf81460ec8bcb"
+      },
+      {
+        "pk": "298a4606-037e-43ba-8eb8-f04f9ca50563",
+        "updated_at": "2026-08-27 12:48:00.677418+00",
+        "sha256": "f42be80c16ffd27dcc362a847a260c64aa623d523faceaca3be623147bc02124"
+      },
+      {
+        "pk": "a48f740b-62ee-49d8-b70b-88d5a0d103c1",
+        "updated_at": "2026-08-27 20:15:26.824841+00",
+        "sha256": "abb40bc53f9c356a4d45fc836905f57b33d2143014e28b0480bbcd7fdbf9fafd"
+      },
+      {
+        "pk": "e4f35cbd-bd5a-4bbc-84ea-953ae6646755",
+        "updated_at": "2026-08-27 20:15:26.870603+00",
+        "sha256": "09f867609d376528e0eeb7cd8d5db9aa603649eaf8530ec1c880de6b85cc09a0"
+      },
+      {
+        "pk": "0d944411-d660-4406-9180-83042824e946",
+        "updated_at": "2026-08-27 20:15:26.921688+00",
+        "sha256": "a973b03816b3f8ac56b9a054d0656f642bb7fa38f9f171ac10d722b1d2db8094"
+      },
+      {
+        "pk": "eb762edb-165a-4d22-9eba-bdd9f3d9baec",
+        "updated_at": "2026-08-27 20:15:26.977645+00",
+        "sha256": "215286df10c591c4d4497cc06aec8bef000f823853c77197d4e3651591b41ffb"
+      },
+      {
+        "pk": "a2bff92b-7bd9-49ff-ac09-8cb91a872dba",
+        "updated_at": "2026-08-27 20:15:27.041941+00",
+        "sha256": "a636d954e94a03fb644c6ca5b599985f94d3558bda94ee4e8481531438dddaee"
+      },
+      {
+        "pk": "74e373b8-5d61-40ea-b037-b1fb3ab41521",
+        "updated_at": "2026-08-27 20:17:41.259505+00",
+        "sha256": "faca76fc9219160462d00f3b502dfe2ca2c7b57a619deea20f8cd91c3308b1ee"
+      },
+      {
+        "pk": "fa6d0fbe-0203-4f68-92f7-c2c8a36842bf",
+        "updated_at": "2026-08-27 20:19:54.133766+00",
+        "sha256": "c6b459f1192377596820fa05171d6c05cbca8149691a75769c778297cdb796a8"
+      },
+      {
+        "pk": "58fb755f-bff5-4bea-a873-74a210e3f7fd",
+        "updated_at": "2026-08-27 20:19:54.187715+00",
+        "sha256": "16b3b65a5e5d09e3fc6e3fca58dab7d5616cc5a6d7a8cead1931a12126e7e02d"
+      },
+      {
+        "pk": "656fa87d-18e0-4ec1-8bc9-f18e605f4415",
+        "updated_at": "2026-08-27 21:06:40.993865+00",
+        "sha256": "caf88de48f04f9f33c8e9eb7a49c77db6e16896df4511b11d78ddf05c1ec5c55"
+      },
+      {
+        "pk": "31e8d45f-b5ae-44e3-af20-e4d2da72461c",
+        "updated_at": "2026-08-27 21:06:41.039359+00",
+        "sha256": "14f010494de24012bed1cb581499736a35838b78df68088f3a849cc63ef74b0a"
+      },
+      {
+        "pk": "825c146a-2d8b-4806-8195-48de1e5253ad",
+        "updated_at": "2026-08-27 21:06:41.086326+00",
+        "sha256": "07bfcea89ee322b317ae153c09c33268d8c0c37e04c472b542c11f0db29b7134"
+      },
+      {
+        "pk": "a7fa3abe-c4fe-4df5-9174-ba850bfbfd02",
+        "updated_at": "2026-09-06 22:06:15.850874+00",
+        "sha256": "f9937fdbe80783e5c66287365c9979f8f17e233536d38933b3ce0665479881b8"
+      },
+      {
+        "pk": "11ca91b8-7b96-4321-9ba5-52d879531f2b",
+        "updated_at": "2026-09-06 22:06:15.910376+00",
+        "sha256": "8bee666a861c868d6cf8a8238120ccdb090585e58da72b99b2386b044136a006"
+      },
+      {
+        "pk": "e7cf44bd-b8af-4bf2-a126-104ce65b248f",
+        "updated_at": "2026-09-06 22:06:15.982511+00",
+        "sha256": "6d3046254e14cba29cf96fc54bb9f0253445484207a46e60737dcb72dd49932e"
+      }
+    ],
+    "timer_reminders": [
+      {
+        "pk": "6860383a-5809-4ce8-ae92-6a6a8c9c5e6f",
+        "updated_at": "2026-07-23 22:11:50.180268+00",
+        "sha256": "77cdb9779f8aaaa0ad8f875e67f77215a9c2fb3fcb1476f53bd4c90d588e0770"
+      },
+      {
+        "pk": "43f8b613-c2cc-41d4-8c94-7b61ea84c1a3",
+        "updated_at": "2026-08-30 04:14:08.904282+00",
+        "sha256": "4e03f4462a68cf22e423764716a72c70127e00251e99ec9e340939d4f45ac025"
+      },
+      {
+        "pk": "ea0ff7b8-5aec-4dfc-9184-7c8f7a894a19",
+        "updated_at": "2026-08-30 04:46:46.069138+00",
+        "sha256": "ee5ea0f922971886e0493c0a9a9456192cb49290f49bc0f510fdeb4f7a302550"
+      },
+      {
+        "pk": "e0f6a45a-28f6-4eae-bb4e-7ea2dfbb9f4f",
+        "updated_at": "2026-08-30 14:46:42.26026+00",
+        "sha256": "56ab7cad6af51ac43775c29fa2c7d46a0824cce9b0dbce7e9fbc928b6497ecbd"
+      }
+    ]
+  },
+  "media": [
+    {
+      "path": "075e3be0-0a6e-47b9-a79d-e35c31aa8152/927e646b-188f-4fd0-a189-3b684df2b487.webp",
+      "bytes": 238251,
+      "sha256": "98b6d9a90dc8357167c9dddb6c41a4610804413b3f65a6293a5d19bef16510ce",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/075e3be0-0a6e-47b9-a79d-e35c31aa8152/927e646b-188f-4fd0-a189-3b684df2b487.webp",
+      "bundleable": true
+    },
+    {
+      "path": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33/59d69b28-dd69-46bc-b849-a466d69e0a44.webp",
+      "bytes": 303922,
+      "sha256": "a74fef6c0f8ed102fcdbd3cfedee584f1d613d588f20f33001dbd8951b4d7633",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33/59d69b28-dd69-46bc-b849-a466d69e0a44.webp",
+      "bundleable": true
+    },
+    {
+      "path": "36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33/f6c49cae-326b-4e80-b3e4-47253cd320ed.webp",
+      "bytes": 2451447,
+      "sha256": "664aa18cf5b78d735a2cd7a2e5b5dabcc275aa1316859aaa0241ecc71a9f0e45",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/36c0b3cf-26ed-4e35-afcb-a09ebbc0ba33/f6c49cae-326b-4e80-b3e4-47253cd320ed.webp",
+      "bundleable": true
+    },
+    {
+      "path": "4d26f595-15de-43d6-b578-bbc668a1f172/06f92d52-b99e-4b86-8ed2-b3663e154bf0.webp",
+      "bytes": 689318,
+      "sha256": "165b70a43641fd04d76a5ac0fa66148d2c2521fb4c82f7d1438042fe7f76cef7",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/4d26f595-15de-43d6-b578-bbc668a1f172/06f92d52-b99e-4b86-8ed2-b3663e154bf0.webp",
+      "bundleable": true
+    },
+    {
+      "path": "4fd58e83-b55a-4e95-a4a8-9b48776ccbdd/5ab09c1e-406e-40cf-8b61-9dd256c9397e.webp",
+      "bytes": 331705,
+      "sha256": "91a5947b23185930463ee4b327ef60426f8ed521c35c7569f6f2de3a740df6c2",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/4fd58e83-b55a-4e95-a4a8-9b48776ccbdd/5ab09c1e-406e-40cf-8b61-9dd256c9397e.webp",
+      "bundleable": true
+    },
+    {
+      "path": "5c381247-8b14-4529-90f3-c5426761072d/5068ed74-8775-41f3-9dcb-6847aa100f17.webp",
+      "bytes": 173978,
+      "sha256": "aa9c4838ec2280f41240d85ebe763f69172ea9a11781753bc495bd18da61c066",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/5c381247-8b14-4529-90f3-c5426761072d/5068ed74-8775-41f3-9dcb-6847aa100f17.webp",
+      "bundleable": true
+    },
+    {
+      "path": "5c381247-8b14-4529-90f3-c5426761072d/803c11af-5faa-45c5-aa0f-8e827c403fab.webp",
+      "bytes": 3642437,
+      "sha256": "aa3ff3f1a6240640a6d3b993b4817cfe0f890c98eec5c9830ae17a49ab3a08d7",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/5c381247-8b14-4529-90f3-c5426761072d/803c11af-5faa-45c5-aa0f-8e827c403fab.webp",
+      "bundleable": true
+    },
+    {
+      "path": "66353710-f855-431c-9981-b65debcfc28f/625f8494-815a-4a12-b47b-b60bab17dc46.webp",
+      "bytes": 90488,
+      "sha256": "c36b8de4bbe7c5dab1309c9be03dfac6c44e1b04a40d139f12561025cc1b30ec",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/66353710-f855-431c-9981-b65debcfc28f/625f8494-815a-4a12-b47b-b60bab17dc46.webp",
+      "bundleable": true
+    },
+    {
+      "path": "66353710-f855-431c-9981-b65debcfc28f/f2483e90-3471-4332-baec-a708d6fbdff3.webp",
+      "bytes": 72458,
+      "sha256": "1169f1bee8a8a63e8e3c8b002ba3f73825ada41dc371b8ca8c3b51d65f48d81d",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/66353710-f855-431c-9981-b65debcfc28f/f2483e90-3471-4332-baec-a708d6fbdff3.webp",
+      "bundleable": true
+    },
+    {
+      "path": "66353710-f855-431c-9981-b65debcfc28f/f80ef065-d4c2-42a0-97e5-3055cb3e7984.webp",
+      "bytes": 158792,
+      "sha256": "2cc774e8bc3edb75beda0eb164588fc1abe9a4dcf5cdf25fa6fdbd5186cbd277",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/66353710-f855-431c-9981-b65debcfc28f/f80ef065-d4c2-42a0-97e5-3055cb3e7984.webp",
+      "bundleable": true
+    },
+    {
+      "path": "7259c386-48b1-49a7-836f-77a8a3f508f4/613b7440-52c1-4ad1-8ff5-cacc69570090.webp",
+      "bytes": 118620,
+      "sha256": "dbee784e746f5fd4eda2163b4f53b0d103ceb1bf847732fa5cbbd1669df6b5b7",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/7259c386-48b1-49a7-836f-77a8a3f508f4/613b7440-52c1-4ad1-8ff5-cacc69570090.webp",
+      "bundleable": true
+    },
+    {
+      "path": "7259c386-48b1-49a7-836f-77a8a3f508f4/cf3122ed-7196-4c60-ae8c-41b9bc3ccc6f.webp",
+      "bytes": 268782,
+      "sha256": "485ef079dfd4c4326cca925589bbb0d6a96ed4cc52c19594f6e73779aaee0696",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/7259c386-48b1-49a7-836f-77a8a3f508f4/cf3122ed-7196-4c60-ae8c-41b9bc3ccc6f.webp",
+      "bundleable": true
+    },
+    {
+      "path": "7259c386-48b1-49a7-836f-77a8a3f508f4/f7f11c18-0983-472a-abe5-2e7bbd8927cd.webp",
+      "bytes": 299376,
+      "sha256": "a34d4d04db1832c81d3b707ea59ba0ee98f3714160a22232aa9611709c35e7fd",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/7259c386-48b1-49a7-836f-77a8a3f508f4/f7f11c18-0983-472a-abe5-2e7bbd8927cd.webp",
+      "bundleable": true
+    },
+    {
+      "path": "80a61891-4463-4930-8475-64ef7c7e2ae5/ec99e3e4-5e9e-4136-a347-fea65e6da889.webp",
+      "bytes": 725242,
+      "sha256": "f51d22527f123865429ca6ecd8b4f8890f079aca7f641295290cf375444fb094",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/80a61891-4463-4930-8475-64ef7c7e2ae5/ec99e3e4-5e9e-4136-a347-fea65e6da889.webp",
+      "bundleable": true
+    },
+    {
+      "path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/2c43f3b0-4c36-4d6c-887a-1f81901c75bd.webp",
+      "bytes": 143896,
+      "sha256": "ce7b53a683cbe405e2ce03f56ac63c73cfb4fd31d97c691388662117883147ab",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/823a51b9-19f0-4d76-8cc6-10b74ea7dfad/2c43f3b0-4c36-4d6c-887a-1f81901c75bd.webp",
+      "bundleable": true
+    },
+    {
+      "path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/bcab186c-4cd8-476f-8902-b34a6a94e158.webp",
+      "bytes": 112598,
+      "sha256": "d8714d8ae05eb50b4b9a725f5ecac5966df30c060a8d18f0c559946959718a04",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/823a51b9-19f0-4d76-8cc6-10b74ea7dfad/bcab186c-4cd8-476f-8902-b34a6a94e158.webp",
+      "bundleable": true
+    },
+    {
+      "path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/bcd47ed5-63e9-427d-84f6-6acb975a7824.webp",
+      "bytes": 93142,
+      "sha256": "2ffe6c85a0ec8891c89cb32e573edc46671d19829f13d328466ab949db1e6cc5",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/823a51b9-19f0-4d76-8cc6-10b74ea7dfad/bcd47ed5-63e9-427d-84f6-6acb975a7824.webp",
+      "bundleable": true
+    },
+    {
+      "path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/d45ff756-f048-4a95-a447-f873aa1f8d40.webp",
+      "bytes": 83428,
+      "sha256": "42ba1b817f5568bc828f753f7300c4ca3574d797b9beb8a340ac124a1b1c01cb",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/823a51b9-19f0-4d76-8cc6-10b74ea7dfad/d45ff756-f048-4a95-a447-f873aa1f8d40.webp",
+      "bundleable": true
+    },
+    {
+      "path": "823a51b9-19f0-4d76-8cc6-10b74ea7dfad/f39e3671-5ac9-47ae-9c0c-4d1a5c0d494f.webp",
+      "bytes": 315172,
+      "sha256": "37652d55b9e4fd77a1867f9d2d1ed364db389c90690bc3fabb90cce928e46b69",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/823a51b9-19f0-4d76-8cc6-10b74ea7dfad/f39e3671-5ac9-47ae-9c0c-4d1a5c0d494f.webp",
+      "bundleable": true
+    },
+    {
+      "path": "9432139a-5d08-40d9-bd6d-37237403301a/68718be7-7b9f-49e0-9188-280a4caf66c8.webp",
+      "bytes": 2028470,
+      "sha256": "75e9cf2377c2368190e71bd78cbaa8603e44d096a35c53fd0c70a6900e0025ad",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/9432139a-5d08-40d9-bd6d-37237403301a/68718be7-7b9f-49e0-9188-280a4caf66c8.webp",
+      "bundleable": true
+    },
+    {
+      "path": "b57d9f36-d8e2-4b6d-a0ca-1588918d699c/e79a73db-b5fc-4062-aa8f-262a5c8a67cc.webp",
+      "bytes": 441563,
+      "sha256": "e0dee981b35d3ab82763d651707a5e61be1d59cdfd7777854b9813c6f80f8983",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/b57d9f36-d8e2-4b6d-a0ca-1588918d699c/e79a73db-b5fc-4062-aa8f-262a5c8a67cc.webp",
+      "bundleable": true
+    },
+    {
+      "path": "bebc571c-e04d-4837-91ee-152a10daf7b1/1c8b0e0c-ee1d-4099-af65-37477c2c9ecf.webp",
+      "bytes": 4634779,
+      "sha256": "88a1ef2a857a8ed04532dc56866b331494701e3ce0e16c52dc368d40ff5e31ea",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/bebc571c-e04d-4837-91ee-152a10daf7b1/1c8b0e0c-ee1d-4099-af65-37477c2c9ecf.webp",
+      "bundleable": true
+    },
+    {
+      "path": "bebc571c-e04d-4837-91ee-152a10daf7b1/44e3b826-98c0-49d3-b671-c503935df68a.webp",
+      "bytes": 836046,
+      "sha256": "8b28c5c2ba04769d315db3ed9ea0f0a6d6601704107e16618fe58400dcf68dc1",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/bebc571c-e04d-4837-91ee-152a10daf7b1/44e3b826-98c0-49d3-b671-c503935df68a.webp",
+      "bundleable": true
+    },
+    {
+      "path": "bebc571c-e04d-4837-91ee-152a10daf7b1/5d7e2892-97c5-4705-a0f6-ff03433d78e8.webp",
+      "bytes": 660171,
+      "sha256": "666af8ba539c3c6a7e0d80cf3ea509b269a0ea8afb3161ddc645caf4924cd862",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/bebc571c-e04d-4837-91ee-152a10daf7b1/5d7e2892-97c5-4705-a0f6-ff03433d78e8.webp",
+      "bundleable": true
+    },
+    {
+      "path": "cf58a5ab-6018-4773-a758-09e2e1344f2b/034ee756-c57f-46b6-9489-54c89bf1d448.webp",
+      "bytes": 138510,
+      "sha256": "09434158490788111b58c5c91db289d6239feb07cfa8d64028512ec4f6cca887",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/cf58a5ab-6018-4773-a758-09e2e1344f2b/034ee756-c57f-46b6-9489-54c89bf1d448.webp",
+      "bundleable": true
+    },
+    {
+      "path": "cf58a5ab-6018-4773-a758-09e2e1344f2b/6e121859-4121-4d4c-bd3d-ff17b0c23566.webp",
+      "bytes": 180278,
+      "sha256": "346666667ef6fe792ac690aba0213a2a46f8367ab19693f7b2980c189bb73a28",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/cf58a5ab-6018-4773-a758-09e2e1344f2b/6e121859-4121-4d4c-bd3d-ff17b0c23566.webp",
+      "bundleable": true
+    },
+    {
+      "path": "cf58a5ab-6018-4773-a758-09e2e1344f2b/c0dbcd23-2f07-475e-902b-478bb818c710.webp",
+      "bytes": 400956,
+      "sha256": "a817c60d89bb8d36c2dd973589b392368d69f38d28080208cc7cbb1fb9e50129",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/cf58a5ab-6018-4773-a758-09e2e1344f2b/c0dbcd23-2f07-475e-902b-478bb818c710.webp",
+      "bundleable": true
+    },
+    {
+      "path": "ddfa8521-adb0-420f-8f4a-79d91fc676b7/3857920d-e13a-4d27-835c-1f0dd2421d71.webp",
+      "bytes": 190174,
+      "sha256": "b4bc26f6f334c6ea16d973b76e83b0c1468ef4711321e4a6d083f2fb01f0254f",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/ddfa8521-adb0-420f-8f4a-79d91fc676b7/3857920d-e13a-4d27-835c-1f0dd2421d71.webp",
+      "bundleable": true
+    },
+    {
+      "path": "e29e3e66-d92d-4ec1-ae50-510374728e98/737a89b4-44f4-4874-905e-f0f03c3eb720.webp",
+      "bytes": 2308498,
+      "sha256": "0eaef34bf1d5fd757c312feaae03a45929349ced5a5218737428d417125f8354",
+      "supabase_url": "https://tsonuzihfzrggzchufbz.supabase.co/storage/v1/object/public/photos/e29e3e66-d92d-4ec1-ae50-510374728e98/737a89b4-44f4-4874-905e-f0f03c3eb720.webp",
+      "bundleable": true
+    }
+  ],
+  "media_note": "All 29 media bytes are included in the two companion ZIPs. Supabase URLs may fail during org 402; bundle/local fallback paths are required."
+}
