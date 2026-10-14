@@ -398,11 +398,24 @@ export function RecipeEditor({
   const runExtraction = async () => {
     if (scans.length === 0 || extracting) return;
     const formData = new FormData();
-    scans.forEach((scan, index) =>
-      formData.append(
-        "images",
-        new File([scan.blob], `scan-${index}.webp`, { type: "image/webp" }),
-      ),
+    // Vercel rejects request bodies over ~4.5MB, so send smaller copies for reading. The full-quality
+    // originals are what gets saved with the recipe.
+    const perFile = Math.floor((4 * 1024 * 1024) / Math.max(1, scans.length));
+    const forReading = await Promise.all(
+      scans.map(async (scan) => {
+        if (scan.blob.size <= perFile) return scan.blob;
+        try {
+          return await compressImage(
+            new File([scan.blob], "scan.webp", { type: "image/webp" }),
+            { ...SCAN_PHOTO_OPTIONS, maxBytes: perFile },
+          );
+        } catch {
+          return scan.blob;
+        }
+      }),
+    );
+    forReading.forEach((blob, index) =>
+      formData.append("images", new File([blob], `scan-${index}.webp`, { type: "image/webp" })),
     );
     await extractVia(formData);
   };
