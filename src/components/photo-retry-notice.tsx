@@ -10,11 +10,13 @@ import { Button, Spinner } from '@/components/ui';
  */
 export function PhotoRetryNotice({
   count,
+  reason,
   pending,
   onRetry,
   onSkip,
 }: {
   count: number;
+  reason: 'size' | 'network' | 'other';
   pending: boolean;
   onRetry: () => void;
   onSkip: () => void;
@@ -29,6 +31,9 @@ export function PhotoRetryNotice({
         </div>
         <h2 className="font-display mt-4 text-xl font-medium text-ink-900">{t('photoFailedTitle')}</h2>
         <p className="mt-2 text-sm leading-relaxed text-ink-500">{t('photoFailedBody', { count })}</p>
+        <p className="mt-2 text-sm font-semibold leading-relaxed text-terra-700">
+          {t(reason === 'size' ? 'photoFailedReasonSize' : reason === 'network' ? 'photoFailedReasonNetwork' : 'photoFailedReasonOther')}
+        </p>
 
         <div className="mt-6 space-y-2.5">
           <Button onClick={onRetry} disabled={pending} size="lg" className="w-full">

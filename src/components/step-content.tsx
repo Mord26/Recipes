@@ -56,13 +56,18 @@ export function StepContent({
       ? 'rounded-md bg-white/15 px-1.5 py-0.5 text-[0.85em] font-semibold'
       : 'rounded-md bg-terra-50 px-1.5 py-0.5 text-[0.85em] font-semibold text-terra-700';
 
+  // Direction follows the step's own text, so Hebrew steps are fully RTL with numbers and amounts
+  // kept in place (isolated) instead of being flipped by the neighbouring characters.
+  const dir = /[\u0590-\u05FF]/.test(step) ? 'rtl' : 'ltr';
+  const isolate = { unicodeBidi: 'isolate' as const };
+
   return (
-    <>
+    <div dir={dir} className="flex flex-col text-start" style={isolate}>
       <span>
         {segments.map((segment, index) =>
           segment.amount ? (
             <span key={index}>
-              <b className="font-semibold">{segment.text}</b> <span className={amountClass}>{segment.amount}</span>
+              <b className="font-semibold">{segment.text}</b> <span className={amountClass} dir={dir} style={isolate}>{segment.amount}</span>
             </span>
           ) : (
             <span key={index}>{segment.text}</span>
@@ -89,6 +94,6 @@ export function StepContent({
           ))}
         </div>
       ) : null}
-    </>
+    </div>
   );
 }

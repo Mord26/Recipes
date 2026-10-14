@@ -31,6 +31,7 @@
     "someUnreadable": "Some text was hard to read and was marked with [?]. Please review and make sure everything is correct.",
     "tooManyPhotos": "This recipe already has enough photos",
     "photoUploadFailed": "Photo upload failed",
+    "extractTooBig": "Recognition failed because the photo is too large. Your photos are still here - tap scan again and the app will shrink them.",
     "extractRetry": "Recognition did not work this time - your photos are still here, just tap scan again. If it keeps failing you can enter it manually.",
     "aiBusy": "The AI is busy right now (too many requests in a short time). Try again in a minute - your photos are saved. You will never be charged.",
     "inviteExpired": "This invite link has expired. Ask for a new one.",
@@ -313,6 +314,9 @@
     "linkProcessing": "Watching the video and pulling out the recipe",
     "photoFailedTitle": "The recipe saved, the photo did not",
     "photoFailedBody": "{count, plural, one {One photo failed to upload} other {# photos failed to upload}}. It is usually the connection. You can try again now without retyping anything.",
+    "photoFailedReasonSize": "Reason: the photo file is too large, so it was not uploaded. Tap try again - the app will shrink it automatically.",
+    "photoFailedReasonNetwork": "Reason: a connection problem during upload. Check your connection and try again.",
+    "photoFailedReasonOther": "We could not tell the exact reason. Try again, and if it repeats, retake the photo.",
     "photoFailedRetry": "Try uploading again",
     "photoFailedSkip": "Continue without the photo"
   },

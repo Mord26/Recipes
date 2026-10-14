@@ -125,6 +125,14 @@ function emptyIngredient(): IngredientRow {
   return { name: "", quantityText: "", unit: "" };
 }
 
+/** Plain-language cause of a failed photo upload, shown to the person who uploaded it. */
+function photoFailureReason(error: unknown): "size" | "network" | "other" {
+  const text = JSON.stringify(error ?? "") + String((error as { message?: string } | null)?.message ?? "");
+  if (/maximum allowed size|too large|413|exceeded/i.test(text)) return "size";
+  if (/fetch|network|timeout|offline|failed to/i.test(text)) return "network";
+  return "other";
+}
+
 export function RecipeEditor({
   mode,
   recipeId,
@@ -184,6 +192,7 @@ export function RecipeEditor({
   const [photoRetry, setPhotoRetry] = useState<{
     recipeId: string;
     photos: PendingPhoto[];
+    reason: "size" | "network" | "other";
   } | null>(null);
   const [extractFailure, setExtractFailure] = useState<RejectReason | null>(null);
   const [saving, startSaving] = useTransition();
@@ -378,6 +387,11 @@ export function RecipeEditor({
         logEvent("extract_not_recognized", { reason: reason ?? "other", scans: scans.length });
         return;
       }
+      if (response.status === 413) {
+        logEvent("extract_failed", { status: 413, ...networkSnapshot() });
+        toast.error(tErrors("extractTooBig"), { duration: 9000 });
+        return;
+      }
       if (!response.ok) throw new Error("extract failed");
       const { recipe, hasUnreadableParts } = (await response.json()) as {
         recipe: ExtractedRecipe;
@@ -398,11 +412,24 @@ export function RecipeEditor({
   const runExtraction = async () => {
     if (scans.length === 0 || extracting) return;
     const formData = new FormData();
-    scans.forEach((scan, index) =>
-      formData.append(
-        "images",
-        new File([scan.blob], `scan-${index}.webp`, { type: "image/webp" }),
-      ),
+    // Vercel rejects request bodies over ~4.5MB, so send smaller copies for reading. The full-quality
+    // originals are what gets saved with the recipe.
+    const perFile = Math.floor((4 * 1024 * 1024) / Math.max(1, scans.length));
+    const forReading = await Promise.all(
+      scans.map(async (scan) => {
+        if (scan.blob.size <= perFile) return scan.blob;
+        try {
+          return await compressImage(
+            new File([scan.blob], "scan.webp", { type: "image/webp" }),
+            { ...SCAN_PHOTO_OPTIONS, maxBytes: perFile },
+          );
+        } catch {
+          return scan.blob;
+        }
+      }),
+    );
+    forReading.forEach((blob, index) =>
+      formData.append("images", new File([blob], `scan-${index}.webp`, { type: "image/webp" })),
     );
     await extractVia(formData);
   };
@@ -586,7 +613,7 @@ export function RecipeEditor({
       const { error } = await addRecipePhotos(targetId, report.uploaded);
       if (error) {
         logEvent("photo_upload_failed", { stage: "record", count: report.uploaded.length, error }, targetId);
-        setPhotoRetry({ recipeId: targetId, photos: pending });
+        setPhotoRetry({ recipeId: targetId, photos: pending, reason: "other" });
         return false;
       }
       logEvent("photo_upload_ok", { count: report.uploaded.length, attempts: report.attempts }, targetId);
@@ -594,7 +621,7 @@ export function RecipeEditor({
 
     if (report.failed.length > 0) {
       logEvent("recipe_saved_without_photos", { failed: report.failed.length, attempts: report.attempts }, targetId);
-      setPhotoRetry({ recipeId: targetId, photos: report.failed });
+      setPhotoRetry({ recipeId: targetId, photos: report.failed, reason: photoFailureReason(report.lastError) });
       return false;
     }
 
@@ -642,6 +669,7 @@ export function RecipeEditor({
       {photoRetry ? (
         <PhotoRetryNotice
           count={photoRetry.photos.length}
+          reason={photoRetry.reason}
           pending={saving}
           onRetry={retryPhotos}
           onSkip={skipPhotos}

@@ -16,6 +16,7 @@ interface QuantityPickerProps {
 const WHOLES = [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 12];
 /** Common cooking fractions, rendered after the whole number ("1½"). */
 const FRACTIONS: { value: number; glyph: string }[] = [
+  { value: 0.125, glyph: '⅛' },
   { value: 0.25, glyph: '¼' },
   { value: 1 / 3, glyph: '⅓' },
   { value: 0.5, glyph: '½' },
